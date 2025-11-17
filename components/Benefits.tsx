@@ -49,24 +49,24 @@ export default function Benefits() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 md:gap-8">
           {benefits.map((benefit, index) => {
             const Icon = benefit.icon;
             return (
               <div
                 key={index}
-                className="group p-6 bg-versebox-surface rounded-2xl text-center hover:shadow-versebox-lg transition-all duration-500 hover:-translate-y-3 hover:scale-105 cursor-pointer animate-scale-in"
+                className="group p-4 sm:p-6 md:p-8 bg-versebox-surface rounded-2xl text-center hover:shadow-versebox-lg transition-all duration-500 hover:-translate-y-3 hover:scale-105 cursor-pointer animate-scale-in"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
                 <div
-                  className={`${benefit.color} w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 transform transition-all duration-500 group-hover:scale-125 group-hover:rotate-12 shadow-lg`}
+                  className={`${benefit.color} w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4 transform transition-all duration-500 group-hover:scale-125 group-hover:rotate-12 shadow-lg`}
                 >
-                  <Icon className="w-8 h-8 text-white transform group-hover:scale-110 transition-transform duration-300" />
+                  <Icon className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 text-white transform group-hover:scale-110 transition-transform duration-300" />
                 </div>
-                <h3 className="text-lg font-bold text-versebox-text mb-2 group-hover:text-versebox-primary transition-colors duration-300">
+                <h3 className="text-base sm:text-lg font-bold text-versebox-text mb-2 group-hover:text-versebox-primary transition-colors duration-300">
                   {benefit.title}
                 </h3>
-                <p className="text-sm text-versebox-text-secondary">
+                <p className="text-xs sm:text-sm text-versebox-text-secondary">
                   {benefit.description}
                 </p>
               </div>

@@ -53,7 +53,7 @@ export default function HowItWorks() {
         </div>
 
         {/* Steps Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 lg:gap-12">
           {steps.map((item, index) => {
             const Icon = item.icon;
             return (
@@ -62,23 +62,23 @@ export default function HowItWorks() {
                 className="relative group"
               >
                 {/* Step Number Badge */}
-                <div className="absolute -top-4 -left-4 w-16 h-16 bg-versebox-gradient rounded-2xl flex items-center justify-center shadow-versebox-lg z-10">
-                  <span className="text-2xl font-bold text-white">
+                <div className="absolute -top-3 -left-3 sm:-top-4 sm:-left-4 w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 bg-versebox-gradient rounded-xl sm:rounded-2xl flex items-center justify-center shadow-versebox-lg z-10">
+                  <span className="text-lg sm:text-xl md:text-2xl font-bold text-white">
                     {item.step}
                   </span>
                 </div>
 
                 {/* Card */}
-                <div className="p-8 pt-12 bg-versebox-surface rounded-2xl hover:shadow-versebox transition-all duration-300 h-full border-2 border-transparent hover:border-versebox-primary/20">
+                <div className="p-6 pt-10 sm:p-8 sm:pt-12 md:p-10 md:pt-14 bg-versebox-surface rounded-2xl hover:shadow-versebox transition-all duration-300 h-full border-2 border-transparent hover:border-versebox-primary/20">
                   <div
-                    className={`${item.color} w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}
+                    className={`${item.color} w-12 h-12 sm:w-14 sm:h-14 rounded-xl flex items-center justify-center mb-4 sm:mb-6 group-hover:scale-110 transition-transform`}
                   >
-                    <Icon className="w-7 h-7 text-white" />
+                    <Icon className="w-6 h-6 sm:w-7 sm:h-7 text-white" />
                   </div>
-                  <h3 className="text-2xl font-bold text-versebox-text mb-3">
+                  <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-versebox-text mb-2 sm:mb-3">
                     {item.title}
                   </h3>
-                  <p className="text-versebox-text-secondary leading-relaxed">
+                  <p className="text-sm sm:text-base text-versebox-text-secondary leading-relaxed">
                     {item.description}
                   </p>
                 </div>
