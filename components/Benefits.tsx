@@ -31,7 +31,7 @@ const benefits = [
 
 export default function Benefits() {
   return (
-    <section className="py-20 md:py-32 bg-white">
+    <section id="benefits" className="py-20 md:py-32 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-versebox-surface rounded-full mb-6">
@@ -55,14 +55,15 @@ export default function Benefits() {
             return (
               <div
                 key={index}
-                className="p-6 bg-versebox-surface rounded-2xl text-center hover:shadow-versebox transition-all"
+                className="group p-6 bg-versebox-surface rounded-2xl text-center hover:shadow-versebox-lg transition-all duration-500 hover:-translate-y-3 hover:scale-105 cursor-pointer animate-scale-in"
+                style={{ animationDelay: `${index * 100}ms` }}
               >
                 <div
-                  className={`${benefit.color} w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4`}
+                  className={`${benefit.color} w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 transform transition-all duration-500 group-hover:scale-125 group-hover:rotate-12 shadow-lg`}
                 >
-                  <Icon className="w-8 h-8 text-white" />
+                  <Icon className="w-8 h-8 text-white transform group-hover:scale-110 transition-transform duration-300" />
                 </div>
-                <h3 className="text-lg font-bold text-versebox-text mb-2">
+                <h3 className="text-lg font-bold text-versebox-text mb-2 group-hover:text-versebox-primary transition-colors duration-300">
                   {benefit.title}
                 </h3>
                 <p className="text-sm text-versebox-text-secondary">
@@ -74,13 +75,13 @@ export default function Benefits() {
         </div>
 
         <div className="mt-12 text-center">
-          <p className="text-versebox-text-secondary mb-6">
+          <p className="text-versebox-text-secondary mb-6 animate-pulse">
             🔥 Only the first 1,000 members get founding status
           </p>
 
           <a
             href="#waitlist"
-            className="inline-flex items-center gap-2 px-8 py-4 bg-versebox-gradient text-white font-semibold rounded-full hover:shadow-versebox-lg transition-all"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-versebox-gradient text-white font-semibold rounded-full hover:shadow-versebox-lg transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 active:scale-95 animate-bounce-in"
           >
             Claim Your Spot Now
           </a>

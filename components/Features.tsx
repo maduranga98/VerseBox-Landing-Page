@@ -78,7 +78,8 @@ export default function Features() {
             return (
               <div
                 key={index}
-                className="group p-8 bg-white rounded-2xl hover:shadow-versebox transition-all duration-300 hover:-translate-y-2"
+                className="group p-8 bg-white rounded-2xl hover:shadow-versebox-lg transition-all duration-500 hover:-translate-y-3 cursor-pointer animate-scale-in border-2 border-transparent hover:border-versebox-primary/20"
+                style={{ animationDelay: `${index * 100}ms` }}
               >
                 {/* Icon with color background */}
                 {/* <div
@@ -89,19 +90,19 @@ export default function Features() {
 
                 {/* Optional: Feature Image (if you have images) */}
                 {/* Uncomment this block when you have images ready */}
-                <div className="relative w-full h-48 mb-6 rounded-xl overflow-hidden">
+                <div className="relative w-full h-48 mb-6 rounded-xl overflow-hidden bg-versebox-surface group-hover:scale-105 transition-transform duration-500">
                   <Image
                     src={feature.image}
                     alt={feature.title}
                     fill
-                    className="object-contain"
+                    className="object-contain group-hover:scale-110 transition-transform duration-500"
                   />
                 </div>
 
-                <h3 className="text-xl font-bold text-versebox-text mb-3">
+                <h3 className="text-xl font-bold text-versebox-text mb-3 group-hover:text-versebox-primary transition-colors duration-300">
                   {feature.title}
                 </h3>
-                <p className="text-versebox-text-secondary leading-relaxed">
+                <p className="text-versebox-text-secondary leading-relaxed group-hover:text-versebox-text transition-colors duration-300">
                   {feature.description}
                 </p>
               </div>
@@ -113,7 +114,7 @@ export default function Features() {
         <div className="text-center mt-16">
           <a
             href="#download"
-            className="inline-flex items-center gap-2 px-8 py-4 bg-versebox-gradient text-white font-semibold rounded-full hover:shadow-versebox-lg transition-all"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-versebox-gradient text-white font-semibold rounded-full hover:shadow-versebox-lg transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 active:scale-95"
           >
             Start Creating Today
           </a>

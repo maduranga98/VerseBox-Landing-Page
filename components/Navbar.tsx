@@ -1,115 +1,206 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, ChevronUp } from "lucide-react";
 import VerseboxIcon from "./VerseboxIcon";
+
+const navItems = [
+  { href: "#features", label: "Features" },
+  { href: "#benefits", label: "Benefits" },
+  { href: "#how-it-works", label: "How It Works" },
+  { href: "#community", label: "Community" },
+];
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState("");
+  const [scrollProgress, setScrollProgress] = useState(0);
+  const [showBackToTop, setShowBackToTop] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20);
+      const scrolled = window.scrollY > 20;
+      setIsScrolled(scrolled);
+      setShowBackToTop(window.scrollY > 500);
+
+      // Calculate scroll progress
+      const windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const scrolled_percentage = (window.scrollY / windowHeight) * 100;
+      setScrollProgress(scrolled_percentage);
+
+      // Determine active section
+      const sections = navItems.map(item => item.href.substring(1));
+      const currentSection = sections.find(section => {
+        const element = document.getElementById(section);
+        if (element) {
+          const rect = element.getBoundingClientRect();
+          return rect.top <= 100 && rect.bottom >= 100;
+        }
+        return false;
+      });
+
+      if (currentSection) {
+        setActiveSection(`#${currentSection}`);
+      }
     };
+
+    handleScroll();
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
-    <nav
-      className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? "bg-white/90 backdrop-blur-lg shadow-md" : "bg-transparent"
-      }`}
-    >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16 md:h-20">
-          {/* Logo */}
-          <div className="flex items-center gap-3">
-            <VerseboxIcon size={40} />
-            <div>
-              <h1 className="text-xl md:text-2xl font-bold text-versebox-text">
-                VERSEBOX
-              </h1>
-              <p className="text-xs text-versebox-text-secondary hidden sm:block">
-                Your Creative Archive
-              </p>
-            </div>
-          </div>
-
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
-            <a
-              href="#features"
-              className="text-versebox-text-secondary hover:text-versebox-primary transition-colors"
-            >
-              Features
-            </a>
-            <a
-              href="#how-it-works"
-              className="text-versebox-text-secondary hover:text-versebox-primary transition-colors"
-            >
-              How It Works
-            </a>
-            <a
-              href="#community"
-              className="text-versebox-text-secondary hover:text-versebox-primary transition-colors"
-            >
-              Community
-            </a>
-            <a
-              href="#download"
-              className="px-6 py-2.5 bg-versebox-gradient text-white font-semibold rounded-full hover:shadow-versebox transition-all"
-            >
-              Get Started
-            </a>
-          </div>
-
-          {/* Mobile Menu Button */}
-          <button
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden p-2 text-versebox-text"
-          >
-            {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
-        </div>
+    <>
+      {/* Scroll Progress Bar */}
+      <div className="fixed top-0 left-0 w-full h-1 bg-gray-200/30 z-[60]">
+        <div
+          className="h-full bg-versebox-gradient transition-all duration-300"
+          style={{ width: `${scrollProgress}%` }}
+        />
       </div>
 
-      {/* Mobile Menu */}
-      {isMobileMenuOpen && (
-        <div className="md:hidden bg-white border-t">
-          <div className="px-4 py-4 space-y-3">
+      <nav
+        className={`fixed top-0 w-full z-50 transition-all duration-500 ${
+          isScrolled
+            ? "bg-white/95 backdrop-blur-xl shadow-lg shadow-versebox-primary/5"
+            : "bg-transparent"
+        }`}
+      >
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-between items-center h-16 md:h-20">
+            {/* Logo */}
             <a
-              href="#features"
-              className="block py-2 text-versebox-text-secondary hover:text-versebox-primary"
-              onClick={() => setIsMobileMenuOpen(false)}
+              href="#"
+              className="flex items-center gap-3 group cursor-pointer"
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToTop();
+              }}
             >
-              Features
+              <div className="transform transition-all duration-500 group-hover:scale-110 group-hover:rotate-12">
+                <VerseboxIcon size={40} />
+              </div>
+              <div className="transform transition-all duration-300 group-hover:translate-x-1">
+                <h1 className={`text-xl md:text-2xl font-bold transition-colors duration-300 ${
+                  isScrolled ? "text-versebox-text" : "text-white"
+                }`}>
+                  VERSEBOX
+                </h1>
+                <p className={`text-xs hidden sm:block transition-colors duration-300 ${
+                  isScrolled ? "text-versebox-text-secondary" : "text-white/80"
+                }`}>
+                  Your Creative Archive
+                </p>
+              </div>
             </a>
-            <a
-              href="#how-it-works"
-              className="block py-2 text-versebox-text-secondary hover:text-versebox-primary"
-              onClick={() => setIsMobileMenuOpen(false)}
+
+            {/* Desktop Navigation */}
+            <div className="hidden md:flex items-center gap-2">
+              {navItems.map((item) => (
+                <a
+                  key={item.href}
+                  href={item.href}
+                  className={`relative px-4 py-2 font-medium transition-all duration-300 group ${
+                    activeSection === item.href
+                      ? isScrolled
+                        ? "text-versebox-primary"
+                        : "text-white"
+                      : isScrolled
+                        ? "text-versebox-text-secondary hover:text-versebox-primary"
+                        : "text-white/80 hover:text-white"
+                  }`}
+                >
+                  <span className="relative z-10">{item.label}</span>
+
+                  {/* Animated underline */}
+                  <span className={`absolute bottom-0 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full ${
+                    isScrolled ? "bg-versebox-primary" : "bg-white"
+                  }`} />
+
+                  {/* Hover background */}
+                  <span className={`absolute inset-0 rounded-lg transition-all duration-300 opacity-0 group-hover:opacity-100 ${
+                    isScrolled ? "bg-versebox-primary/5" : "bg-white/10"
+                  }`} />
+
+                  {/* Active indicator */}
+                  {activeSection === item.href && (
+                    <span className={`absolute -bottom-1 left-1/2 -translate-x-1/2 w-1.5 h-1.5 rounded-full animate-pulse ${
+                      isScrolled ? "bg-versebox-primary" : "bg-white"
+                    }`} />
+                  )}
+                </a>
+              ))}
+
+              <a
+                href="#download"
+                className="ml-4 px-6 py-2.5 bg-versebox-gradient text-white font-semibold rounded-full hover:shadow-versebox-lg transform hover:scale-105 transition-all duration-300 hover:-translate-y-0.5 active:scale-95"
+              >
+                Get Started
+              </a>
+            </div>
+
+            {/* Mobile Menu Button */}
+            <button
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              className={`md:hidden p-2 rounded-lg transition-all duration-300 ${
+                isScrolled ? "text-versebox-text hover:bg-versebox-primary/10" : "text-white hover:bg-white/10"
+              }`}
             >
-              How It Works
-            </a>
-            <a
-              href="#community"
-              className="block py-2 text-versebox-text-secondary hover:text-versebox-primary"
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
-              Community
-            </a>
-            <a
-              href="#download"
-              className="block py-3 px-6 bg-versebox-gradient text-white font-semibold rounded-full text-center"
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
-              Get Started
-            </a>
+              {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
           </div>
         </div>
+
+        {/* Mobile Menu */}
+        <div
+          className={`md:hidden overflow-hidden transition-all duration-500 ease-in-out ${
+            isMobileMenuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+          }`}
+        >
+          <div className="bg-white/95 backdrop-blur-xl border-t border-gray-200 shadow-lg">
+            <div className="px-4 py-4 space-y-1">
+              {navItems.map((item, index) => (
+                <a
+                  key={item.href}
+                  href={item.href}
+                  className={`block py-3 px-4 rounded-lg font-medium transition-all duration-300 transform ${
+                    activeSection === item.href
+                      ? "text-versebox-primary bg-versebox-primary/10 translate-x-2"
+                      : "text-versebox-text-secondary hover:text-versebox-primary hover:bg-versebox-primary/5 hover:translate-x-2"
+                  }`}
+                  style={{ animationDelay: `${index * 50}ms` }}
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  {item.label}
+                </a>
+              ))}
+              <a
+                href="#download"
+                className="block mt-4 py-3 px-6 bg-versebox-gradient text-white font-semibold rounded-full text-center transform hover:scale-105 transition-all duration-300 active:scale-95"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Get Started
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      {/* Back to Top Button */}
+      {showBackToTop && (
+        <button
+          onClick={scrollToTop}
+          className="fixed bottom-8 right-8 z-50 p-3 bg-versebox-gradient text-white rounded-full shadow-versebox-lg hover:shadow-versebox transform hover:scale-110 transition-all duration-300 animate-slide-up hover:-translate-y-1 active:scale-95"
+          aria-label="Back to top"
+        >
+          <ChevronUp size={24} />
+        </button>
       )}
-    </nav>
+    </>
   );
 }
