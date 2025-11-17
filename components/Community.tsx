@@ -68,16 +68,17 @@ export default function Community() {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="p-6 md:p-8 bg-white rounded-2xl hover:shadow-versebox transition-all duration-300"
+              className="group p-6 md:p-8 bg-white rounded-2xl hover:shadow-versebox-lg transition-all duration-500 hover:-translate-y-2 cursor-pointer animate-scale-in border-2 border-transparent hover:border-versebox-accent/20"
+              style={{ animationDelay: `${index * 100}ms` }}
             >
-              <Quote className="w-10 h-10 text-versebox-accent mb-4 opacity-50" />
+              <Quote className="w-10 h-10 text-versebox-accent mb-4 opacity-50 group-hover:opacity-100 transition-opacity duration-300 group-hover:scale-110 transform" />
               <p className="text-versebox-text mb-6 leading-relaxed">
                 "{testimonial.content}"
               </p>
               <div className="flex items-center gap-3">
-                <div className="text-4xl">{testimonial.avatar}</div>
+                <div className="text-4xl transform group-hover:scale-125 transition-transform duration-300">{testimonial.avatar}</div>
                 <div>
-                  <div className="font-semibold text-versebox-text">
+                  <div className="font-semibold text-versebox-text group-hover:text-versebox-primary transition-colors duration-300">
                     {testimonial.name}
                   </div>
                   <div className="text-sm text-versebox-text-secondary">
@@ -91,33 +92,33 @@ export default function Community() {
 
         {/* Stats Section */}
         <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8">
-          <div className="text-center">
-            <div className="text-4xl md:text-5xl font-bold text-versebox-primary mb-2">
+          <div className="text-center group cursor-pointer animate-fade-in" style={{ animationDelay: "0.6s" }}>
+            <div className="text-4xl md:text-5xl font-bold text-versebox-primary mb-2 transform group-hover:scale-110 transition-all duration-300">
               5,000+
             </div>
-            <div className="text-versebox-text-secondary">
+            <div className="text-versebox-text-secondary group-hover:text-versebox-text transition-colors duration-300">
               Waitlist Sign-ups
             </div>
           </div>
-          <div className="text-center">
-            <div className="text-4xl md:text-5xl font-bold text-versebox-secondary mb-2">
+          <div className="text-center group cursor-pointer animate-fade-in" style={{ animationDelay: "0.7s" }}>
+            <div className="text-4xl md:text-5xl font-bold text-versebox-secondary mb-2 transform group-hover:scale-110 transition-all duration-300">
               150+
             </div>
-            <div className="text-versebox-text-secondary">
+            <div className="text-versebox-text-secondary group-hover:text-versebox-text transition-colors duration-300">
               Countries Represented
             </div>
           </div>
-          <div className="text-center">
-            <div className="text-4xl md:text-5xl font-bold text-versebox-accent mb-2">
+          <div className="text-center group cursor-pointer animate-fade-in" style={{ animationDelay: "0.8s" }}>
+            <div className="text-4xl md:text-5xl font-bold text-versebox-accent mb-2 transform group-hover:scale-110 transition-all duration-300">
               Q1 2026
             </div>
-            <div className="text-versebox-text-secondary">Expected Launch</div>
+            <div className="text-versebox-text-secondary group-hover:text-versebox-text transition-colors duration-300">Expected Launch</div>
           </div>
-          <div className="text-center">
-            <div className="text-4xl md:text-5xl font-bold text-versebox-primary mb-2">
+          <div className="text-center group cursor-pointer animate-fade-in" style={{ animationDelay: "0.9s" }}>
+            <div className="text-4xl md:text-5xl font-bold text-versebox-primary mb-2 transform group-hover:scale-110 transition-all duration-300">
               100%
             </div>
-            <div className="text-versebox-text-secondary">Free Forever</div>
+            <div className="text-versebox-text-secondary group-hover:text-versebox-text transition-colors duration-300">Free Forever</div>
           </div>
         </div>
       </div>
