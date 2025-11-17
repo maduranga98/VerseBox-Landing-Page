@@ -8,13 +8,13 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-20 left-10 w-72 h-72 bg-versebox-accent opacity-20 rounded-full blur-3xl animate-float" />
+        <div className="absolute top-10 sm:top-20 left-5 sm:left-10 w-48 h-48 sm:w-72 sm:h-72 bg-versebox-accent opacity-20 rounded-full blur-3xl animate-float" />
         <div
-          className="absolute bottom-20 right-10 w-96 h-96 bg-white opacity-10 rounded-full blur-3xl animate-float"
+          className="absolute bottom-10 sm:bottom-20 right-5 sm:right-10 w-64 h-64 sm:w-96 sm:h-96 bg-white opacity-10 rounded-full blur-3xl animate-float"
           style={{ animationDelay: "1s" }}
         />
         <div
-          className="absolute top-1/2 left-1/2 w-64 h-64 bg-versebox-secondary opacity-20 rounded-full blur-3xl animate-float"
+          className="absolute top-1/2 left-1/2 w-40 h-40 sm:w-64 sm:h-64 bg-versebox-secondary opacity-20 rounded-full blur-3xl animate-float"
           style={{ animationDelay: "2s" }}
         />
       </div>
@@ -82,41 +82,41 @@ export default function Hero() {
 
           {/* Stats */}
           <div
-            className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-20 max-w-4xl mx-auto animate-fade-in"
+            className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 md:gap-8 mt-12 sm:mt-16 md:mt-20 max-w-4xl mx-auto animate-fade-in"
             style={{ animationDelay: "0.4s" }}
           >
-            <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-white mb-2">
+            <div className="text-center p-3 sm:p-4 bg-white/5 backdrop-blur-sm rounded-xl">
+              <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-1 sm:mb-2">
                 2,500+
               </div>
-              <div className="text-white/80 text-sm">Waitlist Sign-ups</div>
+              <div className="text-white/80 text-xs sm:text-sm">Waitlist Sign-ups</div>
             </div>
-            <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-white mb-2">
+            <div className="text-center p-3 sm:p-4 bg-white/5 backdrop-blur-sm rounded-xl">
+              <div className="text-xl sm:text-2xl md:text-3xl font-bold text-white mb-1 sm:mb-2">
                 Coming Soon
               </div>
-              <div className="text-white/80 text-sm">iOS & Android</div>
+              <div className="text-white/80 text-xs sm:text-sm">iOS & Android</div>
             </div>
-            <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-white mb-2">
+            <div className="text-center p-3 sm:p-4 bg-white/5 backdrop-blur-sm rounded-xl">
+              <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-1 sm:mb-2">
                 150+
               </div>
-              <div className="text-white/80 text-sm">Countries Interested</div>
+              <div className="text-white/80 text-xs sm:text-sm">Countries Interested</div>
             </div>
-            <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-white mb-2">
+            <div className="text-center p-3 sm:p-4 bg-white/5 backdrop-blur-sm rounded-xl">
+              <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-1 sm:mb-2">
                 Q1 2026
               </div>
-              <div className="text-white/80 text-sm">Launch Date</div>
+              <div className="text-white/80 text-xs sm:text-sm">Launch Date</div>
             </div>
           </div>
         </div>
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-white/50 rounded-full flex items-start justify-center p-2">
-          <div className="w-1.5 h-1.5 bg-white rounded-full animate-pulse" />
+      <div className="absolute bottom-4 sm:bottom-8 left-1/2 -translate-x-1/2 animate-bounce hidden sm:block">
+        <div className="w-5 h-8 sm:w-6 sm:h-10 border-2 border-white/50 rounded-full flex items-start justify-center p-1.5 sm:p-2">
+          <div className="w-1 h-1 sm:w-1.5 sm:h-1.5 bg-white rounded-full animate-pulse" />
         </div>
       </div>
     </section>

@@ -72,13 +72,13 @@ export default function Features() {
         </div>
 
         {/* Features Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {features.map((feature, index) => {
             const Icon = feature.icon;
             return (
               <div
                 key={index}
-                className="group p-8 bg-white rounded-2xl hover:shadow-versebox-lg transition-all duration-500 hover:-translate-y-3 cursor-pointer animate-scale-in border-2 border-transparent hover:border-versebox-primary/20"
+                className="group p-4 sm:p-6 md:p-8 bg-white rounded-2xl hover:shadow-versebox-lg transition-all duration-500 hover:-translate-y-3 cursor-pointer animate-scale-in border-2 border-transparent hover:border-versebox-primary/20"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
                 {/* Icon with color background */}
@@ -90,7 +90,7 @@ export default function Features() {
 
                 {/* Optional: Feature Image (if you have images) */}
                 {/* Uncomment this block when you have images ready */}
-                <div className="relative w-full h-48 mb-6 rounded-xl overflow-hidden bg-versebox-surface group-hover:scale-105 transition-transform duration-500">
+                <div className="relative w-full h-40 sm:h-48 md:h-52 mb-4 sm:mb-6 rounded-xl overflow-hidden bg-versebox-surface group-hover:scale-105 transition-transform duration-500">
                   <Image
                     src={feature.image}
                     alt={feature.title}
@@ -99,10 +99,10 @@ export default function Features() {
                   />
                 </div>
 
-                <h3 className="text-xl font-bold text-versebox-text mb-3 group-hover:text-versebox-primary transition-colors duration-300">
+                <h3 className="text-lg sm:text-xl font-bold text-versebox-text mb-2 sm:mb-3 group-hover:text-versebox-primary transition-colors duration-300">
                   {feature.title}
                 </h3>
-                <p className="text-versebox-text-secondary leading-relaxed group-hover:text-versebox-text transition-colors duration-300">
+                <p className="text-sm sm:text-base text-versebox-text-secondary leading-relaxed group-hover:text-versebox-text transition-colors duration-300">
                   {feature.description}
                 </p>
               </div>
