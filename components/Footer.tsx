@@ -23,17 +23,10 @@ const footerLinks = {
     { name: "Careers", href: "#" },
     { name: "Press Kit", href: "#" },
   ],
-  resources: [
-    { name: "Help Center", href: "#" },
-    { name: "Guidelines", href: "#" },
-    { name: "API Docs", href: "#" },
-    { name: "Status", href: "#" },
-  ],
   legal: [
-    { name: "Privacy Policy", href: "#" },
-    { name: "Terms of Service", href: "#" },
-    { name: "Cookie Policy", href: "#" },
-    { name: "Copyright", href: "#" },
+    { name: "Privacy Policy", href: "#privacy" },
+    { name: "Terms of Service", href: "#terms" },
+    { name: "Copyright", href: "#copyright" },
   ],
 };
 
@@ -57,7 +50,7 @@ export default function Footer() {
     <footer className="bg-versebox-surface border-t border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
         {/* Main footer content */}
-        <div className="grid grid-cols-2 md:grid-cols-6 gap-8 mb-12">
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-12">
           {/* Brand column */}
           <div className="col-span-2">
             <div className="flex items-center gap-3 mb-4">
@@ -130,22 +123,6 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-semibold text-versebox-text mb-4">Resources</h4>
-            <ul className="space-y-3">
-              {footerLinks.resources.map((link, index) => (
-                <li key={index}>
-                  <a
-                    href={link.href}
-                    className="text-versebox-text-secondary hover:text-versebox-primary transition-colors text-sm"
-                  >
-                    {link.name}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          <div>
             <h4 className="font-semibold text-versebox-text mb-4">Legal</h4>
             <ul className="space-y-3">
               {footerLinks.legal.map((link, index) => (
@@ -197,22 +174,22 @@ export default function Footer() {
 
           <div className="flex items-center gap-6">
             <a
-              href="#"
+              href="#privacy"
               className="hover:text-versebox-primary transition-colors"
             >
               Privacy
             </a>
             <a
-              href="#"
+              href="#terms"
               className="hover:text-versebox-primary transition-colors"
             >
               Terms
             </a>
             <a
-              href="#"
+              href="#copyright"
               className="hover:text-versebox-primary transition-colors"
             >
-              Cookies
+              Copyright
             </a>
           </div>
         </div>
