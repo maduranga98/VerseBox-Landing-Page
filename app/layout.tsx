@@ -16,6 +16,11 @@ export const metadata: Metadata = {
     "creative archive",
   ],
   authors: [{ name: "VERSEBOX" }],
+  icons: {
+    icon: "/versebox-logo.svg",
+    shortcut: "/versebox-logo.svg",
+    apple: "/versebox-logo.svg",
+  },
   openGraph: {
     title: "VERSEBOX - Your Creative Archive",
     description:

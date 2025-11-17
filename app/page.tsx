@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Benefits from "@/components/Benefits";
 import Countdown from "@/components/Countdown";
+import PrivacyPolicy from "@/components/PrivacyPolicy";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <HowItWorks />
       <Community />
       <CTA />
+      <PrivacyPolicy />
       <Footer />
     </main>
   );
