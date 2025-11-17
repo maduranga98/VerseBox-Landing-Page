@@ -43,7 +43,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      {/* suppressHydrationWarning prevents errors from browser extensions that modify the body tag */}
+      <body suppressHydrationWarning>{children}</body>
     </html>
   );
 }

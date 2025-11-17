@@ -24,9 +24,9 @@ const footerLinks = {
     { name: "Press Kit", href: "#" },
   ],
   legal: [
-    { name: "Privacy Policy", href: "#privacy" },
-    { name: "Terms of Service", href: "#terms" },
-    { name: "Copyright", href: "#copyright" },
+    { name: "Privacy Policy", href: "/privacy-policy" },
+    { name: "Terms of Service", href: "/terms-of-service" },
+    { name: "Copyright", href: "/copyright" },
   ],
 };
 
@@ -174,19 +174,19 @@ export default function Footer() {
 
           <div className="flex items-center gap-6">
             <a
-              href="#privacy"
+              href="/privacy-policy"
               className="hover:text-versebox-primary transition-colors"
             >
               Privacy
             </a>
             <a
-              href="#terms"
+              href="/terms-of-service"
               className="hover:text-versebox-primary transition-colors"
             >
               Terms
             </a>
             <a
-              href="#copyright"
+              href="/copyright"
               className="hover:text-versebox-primary transition-colors"
             >
               Copyright
