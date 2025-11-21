@@ -96,37 +96,6 @@ export default function Hero() {
               Be Among the First Creators
             </a>
           </div>
-
-          {/* Stats */}
-          <div
-            className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 md:gap-8 mt-12 sm:mt-16 md:mt-20 max-w-4xl mx-auto animate-fade-in"
-            style={{ animationDelay: "0.4s" }}
-          >
-            <div className="text-center p-3 sm:p-4 bg-white/5 backdrop-blur-sm rounded-xl">
-              <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-1 sm:mb-2">
-                2,500+
-              </div>
-              <div className="text-white/80 text-xs sm:text-sm">Waitlist Sign-ups</div>
-            </div>
-            <div className="text-center p-3 sm:p-4 bg-white/5 backdrop-blur-sm rounded-xl">
-              <div className="text-xl sm:text-2xl md:text-3xl font-bold text-white mb-1 sm:mb-2">
-                Coming Soon
-              </div>
-              <div className="text-white/80 text-xs sm:text-sm">iOS & Android</div>
-            </div>
-            <div className="text-center p-3 sm:p-4 bg-white/5 backdrop-blur-sm rounded-xl">
-              <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-1 sm:mb-2">
-                150+
-              </div>
-              <div className="text-white/80 text-xs sm:text-sm">Countries Interested</div>
-            </div>
-            <div className="text-center p-3 sm:p-4 bg-white/5 backdrop-blur-sm rounded-xl">
-              <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-1 sm:mb-2">
-                Q1 2026
-              </div>
-              <div className="text-white/80 text-xs sm:text-sm">Launch Date</div>
-            </div>
-          </div>
         </div>
       </div>
 

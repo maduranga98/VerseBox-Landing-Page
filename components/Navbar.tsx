@@ -5,10 +5,12 @@ import { Menu, X, ChevronUp } from "lucide-react";
 import InkwingsIcon from "./InkwingsIcon";
 
 const navItems = [
-  { href: "#features", label: "Features" },
-  { href: "#benefits", label: "Benefits" },
+  { href: "#problem", label: "The Problem" },
+  { href: "#features", label: "Solution" },
+  { href: "#who-is-it-for", label: "Who It's For" },
   { href: "#how-it-works", label: "How It Works" },
-  { href: "#community", label: "Community" },
+  { href: "#benefits", label: "Founding Members" },
+  { href: "#faq", label: "FAQ" },
 ];
 
 export default function Navbar() {
