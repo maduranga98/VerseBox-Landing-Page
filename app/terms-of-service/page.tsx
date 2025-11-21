@@ -3,8 +3,8 @@ import Footer from "@/components/Footer";
 import TermsOfService from "@/components/TermsOfService";
 
 export const metadata = {
-  title: "Terms of Service - VERSEBOX",
-  description: "Read the Terms of Service for using the VERSEBOX platform.",
+  title: "Terms of Service - INKWINGS",
+  description: "Read the Terms of Service for using the INKWINGS platform.",
 };
 
 export default function TermsOfServicePage() {

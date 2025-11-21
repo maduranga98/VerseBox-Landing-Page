@@ -21,7 +21,7 @@ export default function CTA() {
   return (
     <section id="download" className="py-12 sm:py-16 md:py-20 lg:py-32 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-versebox-gradient rounded-2xl sm:rounded-3xl overflow-hidden">
+        <div className="bg-inkwings-gradient rounded-2xl sm:rounded-3xl overflow-hidden">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 p-6 sm:p-8 md:p-12 lg:p-16">
             {/* Left Column */}
             <div className="text-white">
@@ -95,13 +95,13 @@ export default function CTA() {
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="Enter your email"
                     required
-                    className="w-full px-4 sm:px-6 py-3 sm:py-4 text-sm sm:text-base rounded-xl bg-white text-versebox-text placeholder-versebox-text-secondary focus:outline-none focus:ring-2 focus:ring-white/50"
+                    className="w-full px-4 sm:px-6 py-3 sm:py-4 text-sm sm:text-base rounded-xl bg-white text-inkwings-text placeholder-inkwings-text-secondary focus:outline-none focus:ring-2 focus:ring-white/50"
                   />
                 </div>
                 <button
                   type="submit"
                   disabled={isSubmitted}
-                  className="w-full px-4 sm:px-6 py-3 sm:py-4 text-sm sm:text-base bg-white text-versebox-primary font-semibold rounded-xl hover:shadow-lg transition-all flex items-center justify-center gap-2 disabled:opacity-50"
+                  className="w-full px-4 sm:px-6 py-3 sm:py-4 text-sm sm:text-base bg-white text-inkwings-primary font-semibold rounded-xl hover:shadow-lg transition-all flex items-center justify-center gap-2 disabled:opacity-50"
                 >
                   {isSubmitted ? (
                     "✓ You're on the list!"
@@ -128,7 +128,7 @@ export default function CTA() {
 
         {/* Bottom text */}
         <div className="text-center mt-8 sm:mt-12">
-          <p className="text-sm sm:text-base text-versebox-text-secondary px-4">
+          <p className="text-sm sm:text-base text-inkwings-text-secondary px-4">
             Available on iOS and Android • Coming soon to Web
           </p>
         </div>
