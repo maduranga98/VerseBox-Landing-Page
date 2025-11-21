@@ -1,12 +1,10 @@
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
 import HowItWorks from "@/components/HowItWorks";
-import Community from "@/components/Community";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Benefits from "@/components/Benefits";
-import Countdown from "@/components/Countdown";
 import Problem from "@/components/Problem";
 import WhoIsItFor from "@/components/WhoIsItFor";
 import ValueProposition from "@/components/ValueProposition";
@@ -18,7 +16,6 @@ export default function Home() {
     <main className="min-h-screen">
       <Navbar />
       <Hero />
-      <Countdown />
       <Problem />
       <Features />
       <WhoIsItFor />
@@ -26,7 +23,6 @@ export default function Home() {
       <ValueProposition />
       <BenefitsOverTime />
       <Benefits />
-      <Community />
       <CTA />
       <FAQ />
       <Footer />
