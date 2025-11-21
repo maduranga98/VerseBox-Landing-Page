@@ -7,6 +7,11 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Benefits from "@/components/Benefits";
 import Countdown from "@/components/Countdown";
+import Problem from "@/components/Problem";
+import WhoIsItFor from "@/components/WhoIsItFor";
+import ValueProposition from "@/components/ValueProposition";
+import BenefitsOverTime from "@/components/BenefitsOverTime";
+import FAQ from "@/components/FAQ";
 
 export default function Home() {
   return (
@@ -14,11 +19,16 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Countdown />
+      <Problem />
       <Features />
-      <Benefits />
+      <WhoIsItFor />
       <HowItWorks />
+      <ValueProposition />
+      <BenefitsOverTime />
+      <Benefits />
       <Community />
       <CTA />
+      <FAQ />
       <Footer />
     </main>
   );

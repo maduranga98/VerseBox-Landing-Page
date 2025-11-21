@@ -36,48 +36,65 @@ export default function Hero() {
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full mb-8 animate-slide-down">
             <Sparkles className="w-4 h-4 text-white" />
             <span className="text-white text-sm font-medium">
-              The YouTube of Creative Writing
+              creative writing platform, poetry app, story sharing, writing community
             </span>
           </div>
 
           {/* Main Heading */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 animate-slide-up">
-            Your Creative
+            Your Creative Work
             <br />
-            <span className="text-inkwings-accent">Archive Forever</span>
+            <span className="text-inkwings-accent">Deserves Its Own Stage</span>
           </h1>
 
           {/* Subheading */}
           <p
-            className="text-lg sm:text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mb-12 animate-slide-up"
+            className="text-lg sm:text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mb-8 animate-slide-up"
             style={{ animationDelay: "0.1s" }}
           >
-            Share poetry, stories, lyrics, and creative writing.
-            <br className="hidden sm:block" />
-            Build your audience. Preserve your words forever.
+            Stop letting your poetry, stories, and lyrics get lost in social media noise. INKWINGS is the dedicated platform where your creative writing lives forever, gets discovered, and builds you a real audience.
           </p>
+
+          {/* Body Copy */}
+          <div
+            className="text-base sm:text-lg text-white/80 max-w-4xl mx-auto mb-4 leading-relaxed animate-slide-up"
+            style={{ animationDelay: "0.15s" }}
+          >
+            <p className="mb-4">
+              Social media wasn't built for creators like you. Your carefully crafted poems disappear in endless feeds. Your stories compete with memes. Your lyrics get buried under cat videos.
+            </p>
+            <p>
+              INKWINGS changes everything. It's a distraction-free sanctuary built exclusively for writers, poets, and storytellers. Here, your work doesn't just exist—it thrives, gets appreciated, and finds the audience it deserves.
+            </p>
+          </div>
 
           {/* CTA Buttons */}
           <div
-            className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-slide-up"
+            className="flex flex-col items-center justify-center gap-4 animate-slide-up"
             style={{ animationDelay: "0.2s" }}
           >
+            <div className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
+              <a
+                href="#download"
+                className="group px-8 py-4 bg-white text-inkwings-primary font-semibold rounded-full hover:shadow-inkwings-lg transition-all flex items-center gap-2 w-full sm:w-auto justify-center"
+              >
+                <Sparkles className="w-5 h-5" />
+                Download for Android
+              </a>
+              <a
+                href="#download"
+                className="group px-8 py-4 bg-white text-inkwings-primary font-semibold rounded-full hover:shadow-inkwings-lg transition-all flex items-center gap-2 w-full sm:w-auto justify-center"
+              >
+                <Sparkles className="w-5 h-5" />
+                Download for iOS
+              </a>
+            </div>
             <a
-              href="#waitlist"
-              className="group px-8 py-4 bg-white text-inkwings-primary font-semibold rounded-full hover:shadow-inkwings-lg transition-all flex items-center gap-2 w-full sm:w-auto justify-center"
+              href="#download"
+              className="text-white/90 text-sm hover:text-white transition-all underline underline-offset-4"
             >
-              Join the Waitlist
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              Be Among the First Creators
             </a>
-            <button
-              onClick={() => {
-                /* Add your demo video handler */
-              }}
-              className="group px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-semibold rounded-full hover:bg-white/20 transition-all flex items-center gap-2 w-full sm:w-auto justify-center"
-            >
-              <Play className="w-5 h-5" />
-              Watch Teaser
-            </button>
           </div>
 
           {/* Stats */}

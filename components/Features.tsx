@@ -1,56 +1,35 @@
 "use client";
 
-import { Feather, Users, Shield, Zap, Globe, Heart } from "lucide-react";
-import Image from "next/image";
+import { Feather, Users, TrendingUp, Archive } from "lucide-react";
 
 const features = [
   {
     icon: Feather,
-    image: "/features/rich-editor.png",
-    title: "Rich Text Editor",
+    title: "A Stage Built Only for Writers",
     description:
-      "Create beautiful poetry, stories, and lyrics with our intuitive formatting tools.",
+      "Imagine a platform where everyone is here for one reason: to read, write, and appreciate creative work. No influencers selling products. No political rants. No random content stealing attention.\n\nINKWINGS is that rare space—100% focused on creative writing. Your poetry shares space with poetry. Your stories sit alongside stories. Your audience is here specifically to discover work like yours.",
     color: "bg-inkwings-primary",
   },
   {
     icon: Users,
-    image: "/features/audience.png",
-    title: "Build Your Audience",
+    title: "Every Creation Deserves Recognition",
     description:
-      "Connect with readers and writers worldwide. Grow your following organically.",
+      "Stop self-censoring. Stop hiding your 'not quite ready' pieces. On INKWINGS, every poem, story, and lyric you publish adds to your creative journey.\n\nReaders can see your evolution. Fellow creators offer genuine feedback. And your experimental work often resonates more than you expect. Nothing gets buried—everything stays accessible, forever.",
     color: "bg-inkwings-secondary",
   },
   {
-    icon: Shield,
-    image: "/features/preserved.png",
-    title: "Forever Preserved",
+    icon: TrendingUp,
+    title: "Built-in Audience Discovery",
     description:
-      "Your creative works are safely archived and accessible forever. Never lose your art.",
+      "No follower count required. INKWINGS' discovery system connects your work with readers who actually want to find it. Through genre tags, curated collections, and a community that actively explores, new creators get seen.\n\nYour first poem has the same chance of being discovered as your hundredth. Fresh voices are celebrated here.",
     color: "bg-inkwings-accent",
   },
   {
-    icon: Zap,
-    image: "/features/publishing.png",
-    title: "Instant Publishing",
+    icon: Archive,
+    title: "Forever Preserved, Always Accessible",
     description:
-      "Share your work instantly with the world. No waiting, no gatekeepers.",
+      "Your creative work isn't temporary content—it's your legacy. INKWINGS archives everything permanently. Five years from now, readers can still discover your early poems. Ten years later, your stories remain accessible.\n\nThink of it as your personal creative museum that the world can visit anytime.",
     color: "bg-inkwings-primary",
-  },
-  {
-    icon: Globe,
-    image: "/features/global.png",
-    title: "Global Community",
-    description:
-      "Join writers from 150+ countries. Multiple languages supported.",
-    color: "bg-inkwings-secondary",
-  },
-  {
-    icon: Heart,
-    image: "/features/engage.png",
-    title: "Engage & Discover",
-    description:
-      "Like, comment, and share. Discover amazing creative works from around the world.",
-    color: "bg-inkwings-accent",
   },
 ];
 
@@ -61,50 +40,38 @@ export default function Features() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-inkwings-text mb-4">
-            Everything You Need to
+            INKWINGS: Where Your Creative Work
             <br />
-            <span className="text-gradient">Share Your Creativity</span>
+            <span className="text-gradient">Finally Gets Its Own Home</span>
           </h2>
-          <p className="text-lg text-inkwings-text-secondary max-w-2xl mx-auto">
-            Powerful features designed for writers, poets, and storytellers of
-            all levels.
+          <p className="text-lg text-inkwings-text-secondary max-w-3xl mx-auto">
+            No algorithms. No distractions. No competing with viral videos. Just pure creative expression in a community that actually reads.
           </p>
         </div>
 
         {/* Features Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {features.map((feature, index) => {
             const Icon = feature.icon;
             return (
               <div
                 key={index}
-                className="group p-4 sm:p-6 md:p-8 bg-white rounded-2xl hover:shadow-inkwings-lg transition-all duration-500 hover:-translate-y-3 cursor-pointer animate-scale-in border-2 border-transparent hover:border-inkwings-primary/20"
+                className="group p-6 md:p-8 bg-white rounded-2xl hover:shadow-inkwings-lg transition-all duration-500 hover:-translate-y-2 cursor-pointer animate-scale-in border-2 border-transparent hover:border-inkwings-primary/20"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
                 {/* Icon with color background */}
-                {/* <div
+                <div
                   className={`${feature.color} w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}
                 >
                   <Icon className="w-7 h-7 text-white" />
-                </div> */}
-
-                {/* Optional: Feature Image (if you have images) */}
-                {/* Uncomment this block when you have images ready */}
-                <div className="relative w-full h-40 sm:h-48 md:h-52 mb-4 sm:mb-6 rounded-xl overflow-hidden bg-inkwings-surface group-hover:scale-105 transition-transform duration-500">
-                  <Image
-                    src={feature.image}
-                    alt={feature.title}
-                    fill
-                    className="object-contain group-hover:scale-110 transition-transform duration-500"
-                  />
                 </div>
 
-                <h3 className="text-lg sm:text-xl font-bold text-inkwings-text mb-2 sm:mb-3 group-hover:text-inkwings-primary transition-colors duration-300">
+                <h3 className="text-xl font-bold text-inkwings-text mb-4 group-hover:text-inkwings-primary transition-colors duration-300">
                   {feature.title}
                 </h3>
-                <p className="text-sm sm:text-base text-inkwings-text-secondary leading-relaxed group-hover:text-inkwings-text transition-colors duration-300">
+                <div className="text-base text-inkwings-text-secondary leading-relaxed whitespace-pre-line">
                   {feature.description}
-                </p>
+                </div>
               </div>
             );
           })}
@@ -116,7 +83,7 @@ export default function Features() {
             href="#download"
             className="inline-flex items-center gap-2 px-8 py-4 bg-inkwings-gradient text-white font-semibold rounded-full hover:shadow-inkwings-lg transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 active:scale-95"
           >
-            Start Creating Today
+            Start Your Creative Journey
           </a>
         </div>
       </div>

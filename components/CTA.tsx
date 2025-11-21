@@ -26,51 +26,64 @@ export default function CTA() {
             {/* Left Column */}
             <div className="text-white">
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6">
-                Be Among the First Creators
+                Your Creative Work Has Been Waiting for This Moment
               </h2>
-              <p className="text-base sm:text-lg text-white/90 mb-6 sm:mb-8 leading-relaxed">
-                Join our exclusive waitlist and get early access when we launch.
-                Plus, founding members get special perks and lifetime benefits!
-              </p>
-
-              {/* Features list */}
-              <ul className="space-y-3 sm:space-y-4 mb-6 sm:mb-8">
-                {[
-                  "Early access before public launch",
-                  "Founding member badge & benefits",
-                  "Priority support for first 1000 users",
-                  "Shape the platform with your feedback",
-                ].map((feature, index) => (
-                  <li key={index} className="flex items-start gap-3">
-                    <div className="mt-0.5 sm:mt-1 w-4 h-4 sm:w-5 sm:h-5 rounded-full bg-white/20 flex items-center justify-center shrink-0">
-                      <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-white" />
-                    </div>
-                    <span className="text-sm sm:text-base text-white/90">{feature}</span>
-                  </li>
-                ))}
-              </ul>
-
-              {/* Download buttons */}
-              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-                <div className="group px-4 sm:px-6 py-2.5 sm:py-3 bg-white/20 backdrop-blur-sm text-white font-semibold rounded-xl cursor-not-allowed flex items-center justify-center gap-2">
-                  <Apple className="w-4 h-4 sm:w-5 sm:h-5" />
-                  <div className="text-left">
-                    <div className="text-xs opacity-75">Coming Soon to</div>
-                    <div className="text-xs sm:text-sm font-bold">App Store</div>
-                  </div>
-                </div>
-                <div className="group px-4 sm:px-6 py-2.5 sm:py-3 bg-white/20 backdrop-blur-sm text-white font-semibold rounded-xl cursor-not-allowed flex items-center justify-center gap-2">
-                  <Smartphone className="w-4 h-4 sm:w-5 sm:h-5" />
-                  <div className="text-left">
-                    <div className="text-xs opacity-75">Coming Soon to</div>
-                    <div className="text-xs sm:text-sm font-bold">Google Play</div>
-                  </div>
-                </div>
+              <div className="text-base sm:text-lg text-white/90 mb-6 sm:mb-8 leading-relaxed space-y-4">
+                <p>
+                  Every poem sitting in your notes app. Every story draft on your laptop. Every lyric in your phone. They're all waiting to find their audience.
+                </p>
+                <p>
+                  INKWINGS is that audience. We're that community. This is that moment.
+                </p>
+                <p>
+                  Stop hiding your creativity. Stop letting social media dictate your worth. Stop waiting for permission to share your art.
+                </p>
+                <p className="font-semibold">
+                  Download INKWINGS today and become one of the founding creators who help build the world's premier creative writing platform. Your first piece could be published in the next 10 minutes. Your audience is waiting to discover you.
+                </p>
               </div>
 
-              <p className="text-xs sm:text-sm text-white/60 mt-3 sm:mt-4 text-center sm:text-left">
-                Expected Launch: Q1 2026
-              </p>
+              {/* Primary CTA Buttons */}
+              <div className="space-y-4 mb-6">
+                <p className="text-white font-semibold text-lg">Primary CTA:</p>
+                <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
+                  <a
+                    href="#waitlist"
+                    className="group px-6 py-4 bg-white text-inkwings-primary font-semibold rounded-xl hover:shadow-lg transition-all flex items-center justify-center gap-2"
+                  >
+                    <Smartphone className="w-5 h-5" />
+                    Download for Android
+                  </a>
+                  <a
+                    href="#waitlist"
+                    className="group px-6 py-4 bg-white text-inkwings-primary font-semibold rounded-xl hover:shadow-lg transition-all flex items-center justify-center gap-2"
+                  >
+                    <Apple className="w-5 h-5" />
+                    Download for iOS
+                  </a>
+                </div>
+                <p className="text-white/80 text-sm">
+                  Available now on Google Play and App Store. No credit card required. No hidden fees. Just pure creative freedom.
+                </p>
+              </div>
+
+              {/* Trust signals */}
+              <div className="space-y-2">
+                <p className="text-white font-semibold mb-3">Trust signals:</p>
+                <ul className="space-y-2">
+                  {[
+                    "✓ Free forever",
+                    "✓ No ads, ever",
+                    "✓ Your content, your rights",
+                    "✓ No follower count needed to start",
+                    "✓ All skill levels welcome",
+                  ].map((feature, index) => (
+                    <li key={index} className="text-sm text-white/90">
+                      {feature}
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
 
             {/* Right Column - Email signup */}

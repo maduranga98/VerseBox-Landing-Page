@@ -5,26 +5,26 @@ import { Crown, Zap, Award, Users } from "lucide-react";
 const benefits = [
   {
     icon: Crown,
-    title: "Founding Member Badge",
-    description: "Exclusive badge displayed on your profile forever",
+    title: "Founding Creator Badge",
+    description: "Display your status as one of the original community members. Your badge shows you were here from day one, helping build the platform.",
     color: "bg-inkwings-primary",
   },
   {
-    icon: Zap,
-    title: "Early Access",
-    description: "Be the first to try new features before anyone else",
+    icon: Users,
+    title: "Shape the Platform",
+    description: "Your feedback directly influences features. As a founding member, you have a voice in what we build next. Help create the platform you've always wanted.",
     color: "bg-inkwings-secondary",
   },
   {
-    icon: Award,
-    title: "Premium Features",
-    description: "Free access to premium features for 1 year",
+    icon: Zap,
+    title: "Early Feature Access",
+    description: "Test new features before anyone else. Be the first to try innovative tools, format options, and community features as we roll them out.",
     color: "bg-inkwings-accent",
   },
   {
-    icon: Users,
-    title: "Direct Influence",
-    description: "Shape the platform with your feedback and suggestions",
+    icon: Award,
+    title: "Lifetime Recognition",
+    description: "Your founding member status is permanent. Years from now, new creators will see you helped build this community from the beginning.",
     color: "bg-inkwings-primary",
   },
 ];
@@ -34,18 +34,12 @@ export default function Benefits() {
     <section id="benefits" className="py-20 md:py-32 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-inkwings-surface rounded-full mb-6">
-            <Crown className="w-4 h-4 text-inkwings-primary" />
-            <span className="text-sm font-medium text-inkwings-primary">
-              Limited Time Offer
-            </span>
-          </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-inkwings-text mb-4">
-            Founding Member <span className="text-gradient">Benefits</span>
+            Be a Founding Creator -{" "}
+            <span className="text-gradient">Launch with Us</span>
           </h2>
           <p className="text-lg text-inkwings-text-secondary max-w-2xl mx-auto">
-            Join the waitlist now and unlock exclusive lifetime perks as a
-            founding member
+            The first creators to join INKWINGS get special recognition forever
           </p>
         </div>
 
@@ -75,15 +69,11 @@ export default function Benefits() {
         </div>
 
         <div className="mt-12 text-center">
-          <p className="text-inkwings-text-secondary mb-6 animate-pulse">
-            🔥 Only the first 1,000 members get founding status
-          </p>
-
           <a
-            href="#waitlist"
+            href="#download"
             className="inline-flex items-center gap-2 px-8 py-4 bg-inkwings-gradient text-white font-semibold rounded-full hover:shadow-inkwings-lg transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 active:scale-95 animate-bounce-in"
           >
-            Claim Your Spot Now
+            Become a Founding Creator
           </a>
         </div>
       </div>

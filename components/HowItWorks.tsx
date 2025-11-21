@@ -6,33 +6,33 @@ const steps = [
   {
     icon: UserPlus,
     step: "01",
-    title: "Create Your Account",
+    title: "Download & Create Your Profile",
     description:
-      "Sign up in seconds and set up your creative profile. Choose your username and start building your digital archive.",
+      "Set up your creative identity. Choose your username. Tell your story. In 2 minutes, you have your own corner of the creative universe.",
     color: "bg-inkwings-primary",
   },
   {
     icon: PenTool,
     step: "02",
-    title: "Write & Format",
+    title: "Publish Your First Piece",
     description:
-      "Use our rich text editor to craft your poetry, stories, or lyrics. Format with ease and make your work shine.",
+      "Use our distraction-free editor to format your poetry, story, or lyrics exactly how you envision it. Add tags. Hit publish. Your work is now live and discoverable.",
     color: "bg-inkwings-secondary",
   },
   {
     icon: Share2,
     step: "03",
-    title: "Publish Instantly",
+    title: "Connect with Your People",
     description:
-      "Share your creative work with the world instantly. No waiting for approval, no gatekeepers between you and your audience.",
+      "Explore work in your genres. Leave thoughtful comments. Follow creators you admire. The community welcomes you immediately—no follower threshold required.",
     color: "bg-inkwings-accent",
   },
   {
     icon: TrendingUp,
     step: "04",
-    title: "Grow Your Audience",
+    title: "Watch Your Audience Grow",
     description:
-      "Engage with readers, get feedback, and build a following. Track your growth and connect with fellow creators worldwide.",
+      "As you publish consistently, readers discover your work. They follow you. They comment. They share. Your creative voice finds its audience naturally.",
     color: "bg-inkwings-primary",
   },
 ];
@@ -44,12 +44,9 @@ export default function HowItWorks() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-inkwings-text mb-4">
-            How It Works
+            From Hidden Creator to{" "}
+            <span className="text-gradient">Published Artist in Minutes</span>
           </h2>
-          <p className="text-lg text-inkwings-text-secondary max-w-2xl mx-auto">
-            Get started in four simple steps and join a global community of
-            creators
-          </p>
         </div>
 
         {/* Steps Grid */}
@@ -99,8 +96,8 @@ export default function HowItWorks() {
         {/* Bottom CTA */}
         <div className="text-center mt-16">
           <a
-            href="#cta"
-            className="inline-flex items-center gap-2 px-8 py-4 bg-inkwings-gradient text-white font-semibold rounded-full hover:shadow-inkwings-lg transition-all"
+            href="#download"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-inkwings-gradient text-white font-semibold rounded-full hover:shadow-inkwings-lg transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 active:scale-95"
           >
             Get Started Now
           </a>
