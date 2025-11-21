@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "VERSEBOX - Your Creative Archive",
+  title: "INKWINGS - Your Creative Archive",
   description:
     "The YouTube of creative writing. Share poetry, stories, lyrics and build your audience. Preserve your words forever.",
   keywords: [
@@ -15,22 +15,22 @@ export const metadata: Metadata = {
     "writers",
     "creative archive",
   ],
-  authors: [{ name: "VERSEBOX" }],
+  authors: [{ name: "INKWINGS" }],
   icons: {
-    icon: "/versebox-logo.svg",
-    shortcut: "/versebox-logo.svg",
-    apple: "/versebox-logo.svg",
+    icon: "/inkwings-logo.svg",
+    shortcut: "/inkwings-logo.svg",
+    apple: "/inkwings-logo.svg",
   },
   openGraph: {
-    title: "VERSEBOX - Your Creative Archive",
+    title: "INKWINGS - Your Creative Archive",
     description:
       "The YouTube of creative writing. Share your creativity and preserve it forever.",
     type: "website",
-    url: "https://versebox.app",
+    url: "https://inkwings.app",
   },
   twitter: {
     card: "summary_large_image",
-    title: "VERSEBOX - Your Creative Archive",
+    title: "INKWINGS - Your Creative Archive",
     description:
       "The YouTube of creative writing. Share poetry, stories, lyrics and build your audience.",
   },

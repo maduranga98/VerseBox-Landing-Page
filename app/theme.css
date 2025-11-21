@@ -2,21 +2,21 @@
 
 @theme {
     /* Colors */
-    --color-versebox-primary: #4F46E5;
-    --color-versebox-secondary: #8B5CF6;
-    --color-versebox-accent: #F472B6;
-    --color-versebox-surface: #F9FAFB;
-    --color-versebox-text: #1F2937;
-    --color-versebox-text-secondary: #6B7280;
+    --color-inkwings-primary: #4F46E5;
+    --color-inkwings-secondary: #8B5CF6;
+    --color-inkwings-accent: #F472B6;
+    --color-inkwings-surface: #F9FAFB;
+    --color-inkwings-text: #1F2937;
+    --color-inkwings-text-secondary: #6B7280;
 
     /* Dark mode colors */
-    --color-versebox-dark-primary: #6366F1;
-    --color-versebox-dark-secondary: #A78BFA;
-    --color-versebox-dark-accent: #FB7185;
-    --color-versebox-dark-surface: #1E293B;
-    --color-versebox-dark-bg: #0F172A;
-    --color-versebox-dark-text: #F1F5F9;
-    --color-versebox-dark-text-secondary: #94A3B8;
+    --color-inkwings-dark-primary: #6366F1;
+    --color-inkwings-dark-secondary: #A78BFA;
+    --color-inkwings-dark-accent: #FB7185;
+    --color-inkwings-dark-surface: #1E293B;
+    --color-inkwings-dark-bg: #0F172A;
+    --color-inkwings-dark-text: #F1F5F9;
+    --color-inkwings-dark-text-secondary: #94A3B8;
 
     /* Animations */
     --animate-fade-in: fadeIn 0.5s ease-in-out;

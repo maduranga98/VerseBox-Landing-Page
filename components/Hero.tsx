@@ -8,13 +8,13 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-10 sm:top-20 left-5 sm:left-10 w-48 h-48 sm:w-72 sm:h-72 bg-versebox-accent opacity-20 rounded-full blur-3xl animate-float" />
+        <div className="absolute top-10 sm:top-20 left-5 sm:left-10 w-48 h-48 sm:w-72 sm:h-72 bg-inkwings-accent opacity-20 rounded-full blur-3xl animate-float" />
         <div
           className="absolute bottom-10 sm:bottom-20 right-5 sm:right-10 w-64 h-64 sm:w-96 sm:h-96 bg-white opacity-10 rounded-full blur-3xl animate-float"
           style={{ animationDelay: "1s" }}
         />
         <div
-          className="absolute top-1/2 left-1/2 w-40 h-40 sm:w-64 sm:h-64 bg-versebox-secondary opacity-20 rounded-full blur-3xl animate-float"
+          className="absolute top-1/2 left-1/2 w-40 h-40 sm:w-64 sm:h-64 bg-inkwings-secondary opacity-20 rounded-full blur-3xl animate-float"
           style={{ animationDelay: "2s" }}
         />
       </div>
@@ -28,7 +28,7 @@ export default function Hero() {
           quality={75}
         />
         {/* Overlay gradient */}
-        {/* <div className="absolute inset-0 bg-gradient-to-br from-versebox-primary/90 via-versebox-secondary/85 to-versebox-accent/80" /> */}
+        {/* <div className="absolute inset-0 bg-gradient-to-br from-inkwings-primary/90 via-inkwings-secondary/85 to-inkwings-accent/80" /> */}
       </div>
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
         <div className="text-center">
@@ -44,7 +44,7 @@ export default function Hero() {
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 animate-slide-up">
             Your Creative
             <br />
-            <span className="text-versebox-accent">Archive Forever</span>
+            <span className="text-inkwings-accent">Archive Forever</span>
           </h1>
 
           {/* Subheading */}
@@ -64,7 +64,7 @@ export default function Hero() {
           >
             <a
               href="#waitlist"
-              className="group px-8 py-4 bg-white text-versebox-primary font-semibold rounded-full hover:shadow-versebox-lg transition-all flex items-center gap-2 w-full sm:w-auto justify-center"
+              className="group px-8 py-4 bg-white text-inkwings-primary font-semibold rounded-full hover:shadow-inkwings-lg transition-all flex items-center gap-2 w-full sm:w-auto justify-center"
             >
               Join the Waitlist
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />

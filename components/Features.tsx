@@ -10,7 +10,7 @@ const features = [
     title: "Rich Text Editor",
     description:
       "Create beautiful poetry, stories, and lyrics with our intuitive formatting tools.",
-    color: "bg-versebox-primary",
+    color: "bg-inkwings-primary",
   },
   {
     icon: Users,
@@ -18,7 +18,7 @@ const features = [
     title: "Build Your Audience",
     description:
       "Connect with readers and writers worldwide. Grow your following organically.",
-    color: "bg-versebox-secondary",
+    color: "bg-inkwings-secondary",
   },
   {
     icon: Shield,
@@ -26,7 +26,7 @@ const features = [
     title: "Forever Preserved",
     description:
       "Your creative works are safely archived and accessible forever. Never lose your art.",
-    color: "bg-versebox-accent",
+    color: "bg-inkwings-accent",
   },
   {
     icon: Zap,
@@ -34,7 +34,7 @@ const features = [
     title: "Instant Publishing",
     description:
       "Share your work instantly with the world. No waiting, no gatekeepers.",
-    color: "bg-versebox-primary",
+    color: "bg-inkwings-primary",
   },
   {
     icon: Globe,
@@ -42,7 +42,7 @@ const features = [
     title: "Global Community",
     description:
       "Join writers from 150+ countries. Multiple languages supported.",
-    color: "bg-versebox-secondary",
+    color: "bg-inkwings-secondary",
   },
   {
     icon: Heart,
@@ -50,22 +50,22 @@ const features = [
     title: "Engage & Discover",
     description:
       "Like, comment, and share. Discover amazing creative works from around the world.",
-    color: "bg-versebox-accent",
+    color: "bg-inkwings-accent",
   },
 ];
 
 export default function Features() {
   return (
-    <section id="features" className="py-20 md:py-32 bg-versebox-surface">
+    <section id="features" className="py-20 md:py-32 bg-inkwings-surface">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-versebox-text mb-4">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-inkwings-text mb-4">
             Everything You Need to
             <br />
             <span className="text-gradient">Share Your Creativity</span>
           </h2>
-          <p className="text-lg text-versebox-text-secondary max-w-2xl mx-auto">
+          <p className="text-lg text-inkwings-text-secondary max-w-2xl mx-auto">
             Powerful features designed for writers, poets, and storytellers of
             all levels.
           </p>
@@ -78,7 +78,7 @@ export default function Features() {
             return (
               <div
                 key={index}
-                className="group p-4 sm:p-6 md:p-8 bg-white rounded-2xl hover:shadow-versebox-lg transition-all duration-500 hover:-translate-y-3 cursor-pointer animate-scale-in border-2 border-transparent hover:border-versebox-primary/20"
+                className="group p-4 sm:p-6 md:p-8 bg-white rounded-2xl hover:shadow-inkwings-lg transition-all duration-500 hover:-translate-y-3 cursor-pointer animate-scale-in border-2 border-transparent hover:border-inkwings-primary/20"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
                 {/* Icon with color background */}
@@ -90,7 +90,7 @@ export default function Features() {
 
                 {/* Optional: Feature Image (if you have images) */}
                 {/* Uncomment this block when you have images ready */}
-                <div className="relative w-full h-40 sm:h-48 md:h-52 mb-4 sm:mb-6 rounded-xl overflow-hidden bg-versebox-surface group-hover:scale-105 transition-transform duration-500">
+                <div className="relative w-full h-40 sm:h-48 md:h-52 mb-4 sm:mb-6 rounded-xl overflow-hidden bg-inkwings-surface group-hover:scale-105 transition-transform duration-500">
                   <Image
                     src={feature.image}
                     alt={feature.title}
@@ -99,10 +99,10 @@ export default function Features() {
                   />
                 </div>
 
-                <h3 className="text-lg sm:text-xl font-bold text-versebox-text mb-2 sm:mb-3 group-hover:text-versebox-primary transition-colors duration-300">
+                <h3 className="text-lg sm:text-xl font-bold text-inkwings-text mb-2 sm:mb-3 group-hover:text-inkwings-primary transition-colors duration-300">
                   {feature.title}
                 </h3>
-                <p className="text-sm sm:text-base text-versebox-text-secondary leading-relaxed group-hover:text-versebox-text transition-colors duration-300">
+                <p className="text-sm sm:text-base text-inkwings-text-secondary leading-relaxed group-hover:text-inkwings-text transition-colors duration-300">
                   {feature.description}
                 </p>
               </div>
@@ -114,7 +114,7 @@ export default function Features() {
         <div className="text-center mt-16">
           <a
             href="#download"
-            className="inline-flex items-center gap-2 px-8 py-4 bg-versebox-gradient text-white font-semibold rounded-full hover:shadow-versebox-lg transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 active:scale-95"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-inkwings-gradient text-white font-semibold rounded-full hover:shadow-inkwings-lg transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 active:scale-95"
           >
             Start Creating Today
           </a>

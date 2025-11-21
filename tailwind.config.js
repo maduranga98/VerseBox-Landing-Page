@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       colors: {
         // Light mode colors
-        versebox: {
+        inkwings: {
           primary: "#4F46E5",
           secondary: "#8B5CF6",
           accent: "#F472B6",
@@ -18,7 +18,7 @@ module.exports = {
           "text-secondary": "#6B7280",
         },
         // Dark mode colors
-        "versebox-dark": {
+        "inkwings-dark": {
           primary: "#6366F1",
           secondary: "#A78BFA",
           accent: "#FB7185",
@@ -29,12 +29,12 @@ module.exports = {
         },
       },
       backgroundImage: {
-        "versebox-gradient":
+        "inkwings-gradient":
           "linear-gradient(135deg, #4F46E5 0%, #8B5CF6 100%)",
-        "versebox-gradient-dark":
+        "inkwings-gradient-dark":
           "linear-gradient(135deg, #6366F1 0%, #A78BFA 100%)",
-        "versebox-accent": "linear-gradient(135deg, #8B5CF6 0%, #F472B6 100%)",
-        "versebox-hero":
+        "inkwings-accent": "linear-gradient(135deg, #8B5CF6 0%, #F472B6 100%)",
+        "inkwings-hero":
           "linear-gradient(135deg, #4F46E5 0%, #8B5CF6 50%, #F472B6 100%)",
       },
       animation: {

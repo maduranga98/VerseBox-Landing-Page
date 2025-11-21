@@ -2,7 +2,7 @@
 
 export default function PrivacyPolicy() {
   return (
-    <section id="privacy" className="py-20 md:py-32 bg-versebox-surface">
+    <section id="privacy" className="py-20 md:py-32 bg-inkwings-surface">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-white rounded-2xl p-8 md:p-12 shadow-lg">
           {/* Header */}
@@ -60,7 +60,7 @@ export default function PrivacyPolicy() {
                 We make no claim to ownership of your creative works, including
                 but not limited to:
               </p>
-              <ul className="list-disc list-inside text-versebox-text-secondary space-y-1 mb-4">
+              <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1 mb-4">
                 <li>Poetry and verse</li>
                 <li>Short stories and microfiction</li>
                 <li>Song lyrics</li>
@@ -76,7 +76,7 @@ export default function PrivacyPolicy() {
                 <strong>non-exclusive, worldwide, royalty-free license</strong>{" "}
                 to:
               </p>
-              <ul className="list-disc list-inside text-versebox-text-secondary space-y-1 mb-4">
+              <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1 mb-4">
                 <li>Display your content on the Platform</li>
                 <li>Store and backup your content on our servers</li>
                 <li>
@@ -101,7 +101,7 @@ export default function PrivacyPolicy() {
               <p className="text-versebox-text-secondary leading-relaxed mb-4">
                 By publishing content, you represent and warrant that:
               </p>
-              <ul className="list-disc list-inside text-versebox-text-secondary space-y-1">
+              <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1">
                 <li>You own or have the legal right to publish the content</li>
                 <li>
                   Your content does not infringe on any third party's
@@ -257,7 +257,7 @@ export default function PrivacyPolicy() {
                 Inkwings serves <strong>only as a platform</strong> for
                 showcasing creative content. We:
               </p>
-              <ul className="list-disc list-inside text-versebox-text-secondary space-y-1">
+              <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1">
                 <li>Do not claim ownership of user content</li>
                 <li>Do not endorse or verify the accuracy of user content</li>
                 <li>Are not responsible for disputes between users</li>
@@ -277,7 +277,7 @@ export default function PrivacyPolicy() {
                 </strong>{" "}
                 You are solely responsible for:
               </p>
-              <ul className="list-disc list-inside text-versebox-text-secondary space-y-1">
+              <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1">
                 <li>The content you publish</li>
                 <li>Any legal issues arising from your content</li>
                 <li>Disputes with third parties regarding your content</li>
@@ -293,7 +293,7 @@ export default function PrivacyPolicy() {
                 Inkwings is provided "as is" without warranties of any kind. We
                 do not guarantee:
               </p>
-              <ul className="list-disc list-inside text-versebox-text-secondary space-y-1">
+              <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1">
                 <li>Uninterrupted or error-free service</li>
                 <li>Complete security or privacy of your content</li>
                 <li>Prevention of unauthorized access or data loss</li>
@@ -337,7 +337,7 @@ export default function PrivacyPolicy() {
               <p className="text-versebox-text-secondary leading-relaxed mb-4">
                 You may not publish content that:
               </p>
-              <ul className="list-disc list-inside text-versebox-text-secondary space-y-1">
+              <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1">
                 <li>Infringes on intellectual property rights</li>
                 <li>Contains illegal material</li>
                 <li>Promotes violence, hatred, or discrimination</li>
@@ -386,7 +386,7 @@ export default function PrivacyPolicy() {
                 </strong>{" "}
                 This includes:
               </p>
-              <ul className="list-disc list-inside text-versebox-text-secondary space-y-1 mb-4">
+              <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1 mb-4">
                 <li>Copying other users' work and publishing elsewhere</li>
                 <li>Using content in commercial projects without permission</li>
                 <li>
@@ -394,10 +394,10 @@ export default function PrivacyPolicy() {
                   authorization
                 </li>
               </ul>
-              <p className="text-versebox-text-secondary leading-relaxed mb-4">
+              <p className="text-inkwings-text-secondary leading-relaxed mb-4">
                 <strong>Violations will result in:</strong>
               </p>
-              <ul className="list-disc list-inside text-versebox-text-secondary space-y-1">
+              <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1">
                 <li>Immediate account suspension</li>
                 <li>Potential legal action from content owners</li>
                 <li>Permanent ban from the Platform</li>
@@ -416,7 +416,7 @@ export default function PrivacyPolicy() {
               <p className="text-versebox-text-secondary leading-relaxed mb-4">
                 Your account may be suspended or terminated for:
               </p>
-              <ul className="list-disc list-inside text-versebox-text-secondary space-y-1">
+              <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1">
                 <li>Copyright infringement</li>
                 <li>Harassment or bullying</li>
                 <li>Publishing prohibited content</li>
@@ -451,7 +451,7 @@ export default function PrivacyPolicy() {
               <p className="text-versebox-text-secondary leading-relaxed mb-4">
                 You may appeal a suspension by:
               </p>
-              <ul className="list-disc list-inside text-versebox-text-secondary space-y-1">
+              <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1">
                 <li>Contacting support with evidence of wrongful suspension</li>
                 <li>We will review within 14 business days</li>
                 <li>Our decision on appeals is final</li>
@@ -470,7 +470,7 @@ export default function PrivacyPolicy() {
               <p className="text-versebox-text-secondary leading-relaxed mb-4">
                 Users can report content or behavior that violates our policies:
               </p>
-              <ul className="list-disc list-inside text-versebox-text-secondary space-y-1">
+              <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1">
                 <li>Click "Report" on any content</li>
                 <li>Select the violation category</li>
                 <li>Provide detailed information and evidence</li>
@@ -497,7 +497,7 @@ export default function PrivacyPolicy() {
                 </strong>{" "}
                 when proper evidence is provided. Our commitment is to:
               </p>
-              <ul className="list-disc list-inside text-versebox-text-secondary space-y-1">
+              <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1">
                 <li>Protect legitimate content creators</li>
                 <li>Remove infringing content swiftly</li>
                 <li>Take action against bad actors</li>
@@ -546,7 +546,7 @@ export default function PrivacyPolicy() {
               <p className="text-versebox-text-secondary leading-relaxed mb-4">
                 Your information is used to:
               </p>
-              <ul className="list-disc list-inside text-versebox-text-secondary space-y-1">
+              <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1">
                 <li>Provide and improve Platform services</li>
                 <li>Authenticate your account and prevent fraud</li>
                 <li>Personalize your experience</li>
@@ -583,7 +583,7 @@ export default function PrivacyPolicy() {
               <p className="text-versebox-text-secondary leading-relaxed mb-4">
                 We implement industry-standard security measures including:
               </p>
-              <ul className="list-disc list-inside text-versebox-text-secondary space-y-1 mb-4">
+              <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1 mb-4">
                 <li>Encrypted data transmission (SSL/TLS)</li>
                 <li>Secure Firebase authentication</li>
                 <li>Regular security audits</li>
@@ -601,7 +601,7 @@ export default function PrivacyPolicy() {
               <p className="text-versebox-text-secondary leading-relaxed mb-4">
                 You have the right to:
               </p>
-              <ul className="list-disc list-inside text-versebox-text-secondary space-y-1 mb-4">
+              <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1 mb-4">
                 <li>Access your personal data</li>
                 <li>Correct inaccurate information</li>
                 <li>Delete your account and data</li>
@@ -662,34 +662,24 @@ export default function PrivacyPolicy() {
 
             {/* 10. International Users */}
             <section>
-              <h2 className="text-2xl font-bold text-versebox-text mb-4">
-                10. International Users
-              </h2>
-              <p className="text-versebox-text-secondary leading-relaxed mb-4">
-                Inkwings is operated from Sri Lanka. By using the Platform:
+              <h2 className="text-2xl font-bold text-inkwings-text mb-4">10. International Users</h2>
+              <p className="text-inkwings-text-secondary leading-relaxed mb-4">
+                Inkwing is operated from [Your Country]. By using the Platform:
               </p>
-              <ul className="list-disc list-inside text-versebox-text-secondary space-y-1">
-                <li>
-                  You consent to data transfer and processing in Sri Lanka
-                </li>
-                <li>
-                  You agree to comply with local laws regarding online content
-                </li>
-                <li>
-                  Different jurisdictions may have different privacy protections
-                </li>
+              <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1">
+                <li>You consent to data transfer and processing in [Your Country]</li>
+                <li>You agree to comply with local laws regarding online content</li>
+                <li>Different jurisdictions may have different privacy protections</li>
               </ul>
             </section>
 
             {/* 11. Changes to This Agreement */}
             <section>
-              <h2 className="text-2xl font-bold text-versebox-text mb-4">
-                11. Changes to This Agreement
-              </h2>
-              <p className="text-versebox-text-secondary leading-relaxed mb-4">
+              <h2 className="text-2xl font-bold text-inkwings-text mb-4">11. Changes to This Agreement</h2>
+              <p className="text-inkwings-text-secondary leading-relaxed mb-4">
                 We may update this Agreement periodically. When we do:
               </p>
-              <ul className="list-disc list-inside text-versebox-text-secondary space-y-1">
+              <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1">
                 <li>We will notify users via email or Platform notification</li>
                 <li>The "Last Updated" date will be revised</li>
                 <li>Continued use after changes constitutes acceptance</li>
@@ -705,7 +695,7 @@ export default function PrivacyPolicy() {
               <p className="text-versebox-text-secondary leading-relaxed mb-4">
                 As an Inkwings user, you agree to:
               </p>
-              <ul className="list-disc list-inside text-versebox-text-secondary space-y-1">
+              <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1">
                 <li>Respect intellectual property rights</li>
                 <li>Engage respectfully with other users</li>
                 <li>Report violations when you encounter them</li>
@@ -728,7 +718,7 @@ export default function PrivacyPolicy() {
               <p className="text-versebox-text-secondary leading-relaxed mb-4">
                 We make reasonable efforts to:
               </p>
-              <ul className="list-disc list-inside text-versebox-text-secondary space-y-1">
+              <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1">
                 <li>Backup content regularly</li>
                 <li>Prevent data loss</li>
                 <li>Maintain Platform availability</li>
@@ -743,7 +733,7 @@ export default function PrivacyPolicy() {
                 </strong>{" "}
                 of important content. We are not liable for:
               </p>
-              <ul className="list-disc list-inside text-versebox-text-secondary space-y-1">
+              <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1">
                 <li>Data loss due to technical failures</li>
                 <li>Accidental deletions</li>
                 <li>Security breaches beyond our control</li>
@@ -758,7 +748,7 @@ export default function PrivacyPolicy() {
               <p className="text-versebox-text-secondary leading-relaxed mb-4">
                 Inkwings may contain links to third-party websites or services:
               </p>
-              <ul className="list-disc list-inside text-versebox-text-secondary space-y-1">
+              <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1">
                 <li>We are not responsible for their privacy practices</li>
                 <li>We do not endorse third-party content</li>
                 <li>Your use of third-party services is at your own risk</li>
@@ -770,50 +760,29 @@ export default function PrivacyPolicy() {
 
             {/* 15. Governing Law & Dispute Resolution */}
             <section>
-              <h2 className="text-2xl font-bold text-versebox-text mb-4">
-                15. Governing Law & Dispute Resolution
-              </h2>
+              <h2 className="text-2xl font-bold text-inkwings-text mb-4">15. Governing Law & Dispute Resolution</h2>
 
-              <h3 className="text-xl font-semibold text-versebox-text mb-3">
-                15.1 Governing Law
-              </h3>
-              <p className="text-versebox-text-secondary leading-relaxed mb-4">
-                This Agreement is governed by the laws of Sri Lanka, without
-                regard to conflict of law principles.
+              <h3 className="text-xl font-semibold text-inkwings-text mb-3">15.1 Governing Law</h3>
+              <p className="text-inkwings-text-secondary leading-relaxed mb-4">
+                This Agreement is governed by the laws of [Your Jurisdiction], without regard to conflict of law principles.
               </p>
 
-              <h3 className="text-xl font-semibold text-versebox-text mb-3">
-                15.2 Dispute Resolution
-              </h3>
-              <p className="text-versebox-text-secondary leading-relaxed mb-4">
+              <h3 className="text-xl font-semibold text-inkwings-text mb-3">15.2 Dispute Resolution</h3>
+              <p className="text-inkwings-text-secondary leading-relaxed mb-4">
                 In case of disputes:
               </p>
-              <ul className="list-disc list-inside text-versebox-text-secondary space-y-1">
-                <li>
-                  <strong>Informal Resolution:</strong> Contact us first to
-                  resolve issues
-                </li>
-                <li>
-                  <strong>Mediation:</strong> If informal resolution fails, we
-                  prefer mediation
-                </li>
-                <li>
-                  <strong>Arbitration:</strong> Binding arbitration may be
-                  required for certain disputes
-                </li>
-                <li>
-                  <strong>Class Action Waiver:</strong> You agree to resolve
-                  disputes individually, not as part of a class action
-                </li>
+              <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1">
+                <li><strong>Informal Resolution:</strong> Contact us first to resolve issues</li>
+                <li><strong>Mediation:</strong> If informal resolution fails, we prefer mediation</li>
+                <li><strong>Arbitration:</strong> Binding arbitration may be required for certain disputes</li>
+                <li><strong>Class Action Waiver:</strong> You agree to resolve disputes individually, not as part of a class action</li>
               </ul>
 
-              <h3 className="text-xl font-semibold text-versebox-text mb-3">
-                15.3 Exceptions
-              </h3>
-              <p className="text-versebox-text-secondary leading-relaxed mb-4">
+              <h3 className="text-xl font-semibold text-inkwings-text mb-3">15.3 Exceptions</h3>
+              <p className="text-inkwings-text-secondary leading-relaxed mb-4">
                 The following may be brought in court:
               </p>
-              <ul className="list-disc list-inside text-versebox-text-secondary space-y-1">
+              <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1">
                 <li>Intellectual property disputes</li>
                 <li>Claims seeking injunctive relief</li>
                 <li>Small claims court matters</li>
@@ -822,13 +791,11 @@ export default function PrivacyPolicy() {
 
             {/* 16. Severability */}
             <section>
-              <h2 className="text-2xl font-bold text-versebox-text mb-4">
-                16. Severability
-              </h2>
-              <p className="text-versebox-text-secondary leading-relaxed mb-4">
+              <h2 className="text-2xl font-bold text-inkwings-text mb-4">16. Severability</h2>
+              <p className="text-inkwings-text-secondary leading-relaxed mb-4">
                 If any provision of this Agreement is found unenforceable:
               </p>
-              <ul className="list-disc list-inside text-versebox-text-secondary space-y-1">
+              <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1">
                 <li>That provision will be modified to be enforceable</li>
                 <li>Other provisions remain in full effect</li>
                 <li>The Agreement's intent will be maintained</li>
@@ -849,85 +816,51 @@ export default function PrivacyPolicy() {
 
             {/* 18. Contact Information */}
             <section>
-              <h2 className="text-2xl font-bold text-versebox-text mb-4">
-                18. Contact Information
-              </h2>
-              <p className="text-versebox-text-secondary leading-relaxed mb-4">
+              <h2 className="text-2xl font-bold text-inkwings-text mb-4">18. Contact Information</h2>
+              <p className="text-inkwings-text-secondary leading-relaxed mb-4">
                 For questions, concerns, or to report violations:
               </p>
-              <div className="space-y-2 text-versebox-text-secondary">
-                <p>
-                  <strong className="text-versebox-text">Email:</strong>{" "}
-                  info@lumoraventures.com
-                </p>
-                <p>
-                  <strong className="text-versebox-text">
-                    Copyright Issues:
-                  </strong>{" "}
-                  info@lumoraventures.com
-                </p>
-                <p>
-                  <strong className="text-versebox-text">
-                    Privacy Concerns:
-                  </strong>{" "}
-                  info@lumoraventures.com
-                </p>
-                <p>
-                  <strong className="text-versebox-text">
-                    General Inquiries:
-                  </strong>{" "}
-                  info@lumoraventures.com
-                </p>
+              <div className="space-y-2 text-inkwings-text-secondary">
+                <p><strong className="text-inkwings-text">Email:</strong> support@inkwing.com</p>
+                <p><strong className="text-inkwings-text">Copyright Issues:</strong> copyright@inkwing.com</p>
+                <p><strong className="text-inkwings-text">Privacy Concerns:</strong> privacy@inkwing.com</p>
+                <p><strong className="text-inkwings-text">General Inquiries:</strong> info@inkwing.com</p>
                 <div className="mt-4">
-                  <p>
-                    <strong className="text-versebox-text">
-                      Mailing Address:
-                    </strong>
-                  </p>
-                  <p>Lumora Ventures (PVT) LTD</p>
-                  <p>Kurunegala Road</p>
-                  <p>Kuliyapitiya</p>
-                  <p>North Western Province, Kurunegala</p>
-                  <p>Sri Lanka</p>
+                  <p><strong className="text-inkwings-text">Mailing Address:</strong></p>
+                  <p>Inkwing</p>
+                  <p>[Your Physical Address]</p>
+                  <p>[City, State, ZIP]</p>
+                  <p>[Country]</p>
                 </div>
               </div>
             </section>
 
             {/* 19. Acknowledgment */}
             <section>
-              <h2 className="text-2xl font-bold text-versebox-text mb-4">
-                19. Acknowledgment
-              </h2>
-              <p className="text-versebox-text-secondary leading-relaxed mb-4">
-                By using Inkwings, you acknowledge that:
+              <h2 className="text-2xl font-bold text-inkwings-text mb-4">19. Acknowledgment</h2>
+              <p className="text-inkwings-text-secondary leading-relaxed mb-4">
+                By using Inkwing, you acknowledge that:
               </p>
-              <ul className="list-disc list-inside text-versebox-text-secondary space-y-1 mb-4">
+              <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1 mb-4">
                 <li>You have read and understood this Agreement</li>
                 <li>You agree to be bound by these terms</li>
                 <li>You understand your rights and responsibilities</li>
                 <li>You consent to our data practices as described</li>
               </ul>
-              <p className="text-versebox-text-secondary leading-relaxed">
-                <strong>
-                  Your continued use of Inkwings constitutes ongoing agreement
-                  to these terms.
-                </strong>
+              <p className="text-inkwings-text-secondary leading-relaxed">
+                <strong>Your continued use of Inkwing constitutes ongoing agreement to these terms.</strong>
               </p>
             </section>
 
             {/* 20. Additional Terms */}
             <section>
-              <h2 className="text-2xl font-bold text-versebox-text mb-4">
-                20. Additional Terms
-              </h2>
+              <h2 className="text-2xl font-bold text-inkwings-text mb-4">20. Additional Terms</h2>
 
-              <h3 className="text-xl font-semibold text-versebox-text mb-3">
-                20.1 Content Preservation
-              </h3>
-              <p className="text-versebox-text-secondary leading-relaxed mb-4">
+              <h3 className="text-xl font-semibold text-inkwings-text mb-3">20.1 Content Preservation</h3>
+              <p className="text-inkwings-text-secondary leading-relaxed mb-4">
                 We strive to preserve creative works forever, but:
               </p>
-              <ul className="list-disc list-inside text-versebox-text-secondary space-y-1">
+              <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1">
                 <li>We may remove content that violates our policies</li>
                 <li>We may terminate the Platform with reasonable notice</li>
                 <li>
@@ -936,42 +869,32 @@ export default function PrivacyPolicy() {
                 </li>
               </ul>
 
-              <h3 className="text-xl font-semibold text-versebox-text mb-3">
-                20.2 Feature Changes
-              </h3>
-              <p className="text-versebox-text-secondary leading-relaxed mb-4">
+              <h3 className="text-xl font-semibold text-inkwings-text mb-3">20.2 Feature Changes</h3>
+              <p className="text-inkwings-text-secondary leading-relaxed mb-4">
                 We reserve the right to:
               </p>
-              <ul className="list-disc list-inside text-versebox-text-secondary space-y-1">
+              <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1">
                 <li>Add, modify, or remove features</li>
                 <li>Change Platform functionality</li>
                 <li>Update user interface and experience</li>
                 <li>Adjust content policies as needed</li>
               </ul>
 
-              <h3 className="text-xl font-semibold text-versebox-text mb-3">
-                20.3 Account Inactivity
-              </h3>
-              <p className="text-versebox-text-secondary leading-relaxed mb-4">
+              <h3 className="text-xl font-semibold text-inkwings-text mb-3">20.3 Account Inactivity</h3>
+              <p className="text-inkwings-text-secondary leading-relaxed mb-4">
                 Accounts inactive for 2+ years may be:
               </p>
-              <ul className="list-disc list-inside text-versebox-text-secondary space-y-1">
+              <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1">
                 <li>Archived with limited visibility</li>
                 <li>Deleted after additional notice</li>
                 <li>Your content preserved per your settings</li>
               </ul>
 
-              <h3 className="text-xl font-semibold text-versebox-text mb-3">
-                20.4 Content Licensing to Third Parties
-              </h3>
-              <p className="text-versebox-text-secondary leading-relaxed mb-4">
-                <strong>
-                  You retain all rights to license your content to third
-                  parties.
-                </strong>{" "}
-                Inkwings does not interfere with:
+              <h3 className="text-xl font-semibold text-inkwings-text mb-3">20.4 Content Licensing to Third Parties</h3>
+              <p className="text-inkwings-text-secondary leading-relaxed mb-4">
+                <strong>You retain all rights to license your content to third parties.</strong> Inkwing does not interfere with:
               </p>
-              <ul className="list-disc list-inside text-versebox-text-secondary space-y-1">
+              <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1">
                 <li>Your ability to publish elsewhere</li>
                 <li>Commercial use of your work</li>
                 <li>Licensing agreements you enter into</li>
@@ -980,16 +903,12 @@ export default function PrivacyPolicy() {
             </section>
 
             {/* Closing Statement */}
-            <section className="text-center py-8 border-t-2 border-versebox-surface">
-              <p className="text-lg text-versebox-text font-semibold mb-4">
-                Thank you for being part of the Inkwings community. Together,
-                we're preserving creative expression for generations to come.
+            <section className="text-center py-8 border-t-2 border-inkwings-surface">
+              <p className="text-lg text-inkwings-text font-semibold mb-4">
+                Thank you for being part of the Inkwing community. Together, we're preserving creative expression for generations to come.
               </p>
-              <p className="text-sm text-versebox-text-secondary italic">
-                This document is a legally binding agreement. We recommend
-                consulting with a legal professional to ensure it meets your
-                specific needs and complies with all applicable laws in your
-                jurisdiction.
+              <p className="text-sm text-inkwings-text-secondary italic">
+                This document is a legally binding agreement. We recommend consulting with a legal professional to ensure it meets your specific needs and complies with all applicable laws in your jurisdiction.
               </p>
             </section>
           </div>
