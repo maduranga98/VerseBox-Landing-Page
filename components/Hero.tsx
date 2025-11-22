@@ -2,8 +2,11 @@
 
 import { ArrowRight, Play, Sparkles } from "lucide-react";
 import Image from "next/image";
+import { useState } from "react";
 
 export default function Hero() {
+  const [imageLoaded, setImageLoaded] = useState(false);
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Animated background elements */}
@@ -18,17 +21,24 @@ export default function Hero() {
           style={{ animationDelay: "2s" }}
         />
       </div>
+      {/* Background with gradient fallback and optimized loading */}
       <div className="absolute inset-0">
+        {/* Gradient fallback that shows immediately */}
+        <div className="absolute inset-0 bg-gradient-to-br from-inkwings-primary via-inkwings-secondary to-inkwings-accent" />
+        {/* Image overlay with fade-in effect */}
         <Image
           src="/hero.png"
           alt="Creative writing background"
           fill
-          className="object-cover"
+          className={`object-cover transition-opacity duration-700 ${
+            imageLoaded ? "opacity-100" : "opacity-0"
+          }`}
           priority
-          quality={75}
+          quality={60}
+          placeholder="blur"
+          blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mN8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+          onLoad={() => setImageLoaded(true)}
         />
-        {/* Overlay gradient */}
-        {/* <div className="absolute inset-0 bg-gradient-to-br from-inkwings-primary/90 via-inkwings-secondary/85 to-inkwings-accent/80" /> */}
       </div>
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
         <div className="text-center">
