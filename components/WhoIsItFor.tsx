@@ -28,7 +28,7 @@ const personas = [
     icon: Award,
     title: "The Recognition Seeker",
     description:
-      "Your work is good—you know it. But somehow, it never gets the recognition it deserves. You're talented but invisible.\n\nINKWINGS levels the playing field. Quality writing gets discovered here. Your talent finally has a chance to shine.",
+      "Your work is good-you know it. But somehow, it never gets the recognition it deserves. You're talented but invisible.\n\nINKWINGS levels the playing field. Quality writing gets discovered here. Your talent finally has a chance to shine.",
     color: "bg-inkwings-primary",
   },
 ];
