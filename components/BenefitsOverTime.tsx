@@ -1,10 +1,10 @@
 "use client";
 
-import { Sparkles, Zap, TrendingUp, Users, Award } from "lucide-react";
+import { FileText, Zap, TrendingUp, Users, Award } from "lucide-react";
 
 const timeline = [
   {
-    icon: Sparkles,
+    icon: FileText,
     period: "Day 1",
     title: "Your First Publish",
     description:

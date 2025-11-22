@@ -5,12 +5,12 @@ import {
   PenTool,
   Users,
   TrendingUp,
-  Sparkles,
   ArrowRight,
   CheckCircle2,
   Download,
   BookOpen,
   Heart,
+  FileText,
 } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
@@ -121,7 +121,7 @@ export default function HowItWorks() {
         {/* Section Header */}
         <div className="text-center mb-20">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-purple-100 to-pink-100 rounded-full mb-6">
-            <Sparkles className="w-4 h-4 text-purple-600" />
+            <FileText className="w-4 h-4 text-purple-600" />
             <span className="text-sm font-semibold text-purple-900">
               Simple 4-Step Process
             </span>
@@ -290,8 +290,7 @@ export default function HowItWorks() {
               <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
             </a>
             <p className="text-sm text-gray-600">
-              Free to download • No credit card required • Available on iOS &
-              Android
+              Free to download • No credit card required • Android available now • iOS coming soon
             </p>
           </div>
         </div>
