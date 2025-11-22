@@ -7,14 +7,14 @@ const features = [
     icon: Feather,
     title: "A Stage Built Only for Writers",
     description:
-      "Imagine a platform where everyone is here for one reason: to read, write, and appreciate creative work. No influencers selling products. No political rants. No random content stealing attention.\n\nINKWINGS is that rare space—100% focused on creative writing. Your poetry shares space with poetry. Your stories sit alongside stories. Your audience is here specifically to discover work like yours.",
+      "Imagine a platform where everyone is here for one reason: to read, write, and appreciate creative work. No influencers selling products. No political rants. No random content stealing attention.\n\nINKWINGS is that rare space - 100% focused on creative writing. Your poetry shares space with poetry. Your stories sit alongside stories. Your audience is here specifically to discover work like yours.",
     color: "bg-inkwings-primary",
   },
   {
     icon: Users,
     title: "Every Creation Deserves Recognition",
     description:
-      "Stop self-censoring. Stop hiding your 'not quite ready' pieces. On INKWINGS, every poem, story, and lyric you publish adds to your creative journey.\n\nReaders can see your evolution. Fellow creators offer genuine feedback. And your experimental work often resonates more than you expect. Nothing gets buried—everything stays accessible, forever.",
+      "Stop self-censoring. Stop hiding your 'not quite ready' pieces. On INKWINGS, every poem, story, and lyric you publish adds to your creative journey.\n\nReaders can see your evolution. Fellow creators offer genuine feedback. And your experimental work often resonates more than you expect. Nothing gets buried-everything stays accessible, forever.",
     color: "bg-inkwings-secondary",
   },
   {
@@ -28,7 +28,7 @@ const features = [
     icon: Archive,
     title: "Forever Preserved, Always Accessible",
     description:
-      "Your creative work isn't temporary content—it's your legacy. INKWINGS archives everything permanently. Five years from now, readers can still discover your early poems. Ten years later, your stories remain accessible.\n\nThink of it as your personal creative museum that the world can visit anytime.",
+      "Your creative work isn't temporary content-it's your legacy. INKWINGS archives everything permanently. Five years from now, readers can still discover your early poems. Ten years later, your stories remain accessible.\n\nThink of it as your personal creative museum that the world can visit anytime.",
     color: "bg-inkwings-primary",
   },
 ];
@@ -45,7 +45,8 @@ export default function Features() {
             <span className="text-gradient">Finally Gets Its Own Home</span>
           </h2>
           <p className="text-lg text-inkwings-text-secondary max-w-3xl mx-auto">
-            No algorithms. No distractions. No competing with viral videos. Just pure creative expression in a community that actually reads.
+            No algorithms. No distractions. No competing with viral videos. Just
+            pure creative expression in a community that actually reads.
           </p>
         </div>
 

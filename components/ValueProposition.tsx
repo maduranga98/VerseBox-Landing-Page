@@ -21,20 +21,25 @@ const valueProps = [
     icon: Shield,
     title: "Your Rights, Always Protected",
     description:
-      "You own 100% of your creative work. INKWINGS never claims rights to your poetry, stories, or lyrics. We're just the stage—you're the artist. Publish freely, knowing your intellectual property remains yours.",
+      "You own 100% of your creative work. INKWINGS never claims rights to your poetry, stories, or lyrics. We're just the stage-you're the artist. Publish freely, knowing your intellectual property remains yours.",
     color: "bg-inkwings-accent",
   },
 ];
 
 export default function ValueProposition() {
   return (
-    <section id="value-proposition" className="py-20 md:py-32 bg-inkwings-surface">
+    <section
+      id="value-proposition"
+      className="py-20 md:py-32 bg-inkwings-surface"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-inkwings-text mb-4">
             Why INKWINGS{" "}
-            <span className="text-gradient">Changes Everything for Creators</span>
+            <span className="text-gradient">
+              Changes Everything for Creators
+            </span>
           </h2>
         </div>
 

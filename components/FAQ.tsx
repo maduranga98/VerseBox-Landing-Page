@@ -12,7 +12,7 @@ const faqs = [
   {
     question: "What types of creative writing can I share?",
     answer:
-      "Poetry, short stories, microfiction, song lyrics, prose, creative essays, flash fiction—if you wrote it and it's creative, it belongs on INKWINGS.",
+      "Poetry, short stories, microfiction, song lyrics, prose, creative essays, flash fiction-if you wrote it and it's creative, it belongs on INKWINGS.",
   },
   {
     question: "Do I need to be a professional writer?",

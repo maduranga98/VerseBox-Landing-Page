@@ -7,21 +7,21 @@ const problems = [
     icon: AlertCircle,
     title: "The Social Media Trap",
     content:
-      "You pour your heart into a poem. You spend hours perfecting a story. Then you post it on social media... and it gets 12 likes before vanishing into the void. That's not validation—that's invisibility.\n\nYour creative work isn't content. It's art. And art deserves better than a 24-hour shelf life.",
+      "You pour your heart into a poem. You spend hours perfecting a story. Then you post it on social media... and it gets 12 likes before vanishing into the void. That's not validation-that's invisibility.\n\nYour creative work isn't content. It's art. And art deserves better than a 24-hour shelf life.",
     color: "bg-red-500",
   },
   {
     icon: FolderX,
     title: "The Hidden Portfolio Problem",
     content:
-      "Professional writers only publish their best work. But what about everything else? Those experimental pieces, early drafts, practice poems, and exploratory stories? They sit in notebooks or buried in folders, never seeing daylight.\n\nEvery creation has value—even the ones you don't think are \"ready.\" Each piece is a step in your journey, deserving of its own space and appreciation.",
+      'Professional writers only publish their best work. But what about everything else? Those experimental pieces, early drafts, practice poems, and exploratory stories? They sit in notebooks or buried in folders, never seeing daylight.\n\nEvery creation has value-even the ones you don\'t think are "ready." Each piece is a step in your journey, deserving of its own space and appreciation.',
     color: "bg-orange-500",
   },
   {
     icon: HelpCircle,
     title: "The New Creator Struggle",
     content:
-      "If you're just starting out, the traditional path feels impossible. Where do you publish without connections? How do you build an audience from zero? How do you know if your work is any good?\n\nYou need a space that welcomes beginners, celebrates growth, and provides genuine feedback—not just empty likes.",
+      "If you're just starting out, the traditional path feels impossible. Where do you publish without connections? How do you build an audience from zero? How do you know if your work is any good?\n\nYou need a space that welcomes beginners, celebrates growth, and provides genuine feedback-not just empty likes.",
     color: "bg-amber-500",
   },
 ];
