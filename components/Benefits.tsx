@@ -5,9 +5,9 @@ import {
   Zap,
   Award,
   Users,
-  Sparkles,
   ArrowRight,
   Star,
+  BadgeCheck,
 } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
@@ -127,7 +127,7 @@ export default function Benefits() {
                 {/* Highlight badge */}
                 <div className="absolute -top-3 left-1/2 -translate-x-1/2 z-20">
                   <div className="px-3 py-1 bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-xs font-bold rounded-full shadow-lg flex items-center gap-1">
-                    <Sparkles className="w-3 h-3" />
+                    <BadgeCheck className="w-3 h-3" />
                     {benefit.highlight}
                   </div>
                 </div>
@@ -163,17 +163,6 @@ export default function Benefits() {
 
                   {/* Decorative corner glow */}
                   <div className="absolute bottom-0 right-0 w-24 h-24 bg-gradient-to-br from-yellow-400 to-orange-500 opacity-0 group-hover:opacity-20 blur-2xl transition-opacity duration-500 rounded-full" />
-
-                  {/* Animated particles */}
-                  <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                    <Sparkles className="w-4 h-4 text-yellow-500 fill-yellow-500 animate-pulse" />
-                  </div>
-                  <div
-                    className="absolute bottom-4 left-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
-                    style={{ transitionDelay: "100ms" }}
-                  >
-                    <Sparkles className="w-3 h-3 text-orange-500 fill-orange-500 animate-pulse" />
-                  </div>
                 </div>
               </div>
             );
@@ -188,7 +177,7 @@ export default function Benefits() {
             >
               <Crown className="w-6 h-6 group-hover:rotate-12 transition-transform" />
               Become a Founding Creator
-              <Sparkles className="w-6 h-6 group-hover:rotate-180 transition-transform duration-500" />
+              <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform duration-500" />
             </a>
             <p className="text-sm text-gray-600 flex items-center gap-2">
               <span className="inline-flex items-center gap-1 px-3 py-1 bg-red-100 text-red-700 rounded-full font-semibold animate-pulse">

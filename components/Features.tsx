@@ -5,10 +5,10 @@ import {
   Users,
   TrendingUp,
   Archive,
-  Sparkles,
   ChevronRight,
   Star,
   Zap,
+  BadgeCheck,
 } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
@@ -142,9 +142,9 @@ export default function Features() {
                     >
                       <Icon className="w-8 h-8 text-white" />
                     </div>
-                    {/* Sparkle effect on hover */}
+                    {/* Badge effect on hover */}
                     <div className="absolute -top-1 -right-1 opacity-0 group-hover:opacity-100 transition-opacity">
-                      <Sparkles className="w-5 h-5 text-yellow-500 fill-yellow-500 animate-pulse" />
+                      <BadgeCheck className="w-5 h-5 text-green-500 fill-green-500 animate-pulse" />
                     </div>
                   </div>
 
@@ -194,7 +194,7 @@ export default function Features() {
             href="#download"
             className="group inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 text-white font-bold rounded-full hover:shadow-2xl transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 active:scale-95"
           >
-            <Sparkles className="w-5 h-5 group-hover:rotate-180 transition-transform duration-500" />
+            <Feather className="w-5 h-5 group-hover:rotate-12 transition-transform duration-500" />
             Start Your Creative Journey
             <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </a>
