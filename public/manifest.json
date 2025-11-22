@@ -1,0 +1,23 @@
+{
+  "name": "INKWINGS - Your Creative Archive",
+  "short_name": "INKWINGS",
+  "description": "The YouTube of creative writing. Share poetry, stories, lyrics and build your audience.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#7C3AED",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/inkwings-logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "education", "entertainment"],
+  "lang": "en-US",
+  "dir": "ltr",
+  "scope": "/",
+  "prefer_related_applications": false
+}
