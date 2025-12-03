@@ -3,8 +3,8 @@ import Footer from "@/components/Footer";
 import TermsOfService from "@/components/TermsOfService";
 
 export const metadata = {
-  title: "Terms of Service - INKWINGS",
-  description: "Read the Terms of Service for using the INKWINGS platform.",
+  title: "Terms of Service - VERSEWING",
+  description: "Read the Terms of Service for using the VERSEWING platform.",
 };
 
 export default function TermsOfServicePage() {
