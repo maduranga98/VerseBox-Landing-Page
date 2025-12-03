@@ -3,8 +3,8 @@ import Footer from "@/components/Footer";
 import Copyright from "@/components/Copyright";
 
 export const metadata = {
-  title: "Copyright Information - INKWINGS",
-  description: "Learn about copyright policies and protections on INKWINGS.",
+  title: "Copyright Information - VERSEWING",
+  description: "Learn about copyright policies and protections on VERSEWING.",
 };
 
 export default function CopyrightPage() {

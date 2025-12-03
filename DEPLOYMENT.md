@@ -1,6 +1,6 @@
-# INKWINGS Landing Page - Deployment Guide
+# VERSEWING Landing Page - Deployment Guide
 
-This guide covers deploying the INKWINGS landing page to production.
+This guide covers deploying the VERSEWING landing page to production.
 
 ## 🚀 Quick Deploy
 
