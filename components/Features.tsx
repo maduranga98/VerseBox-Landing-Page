@@ -17,7 +17,7 @@ const features = [
     icon: Feather,
     title: "A Stage Built Only for Writers",
     description:
-      "Imagine a platform where everyone is here for one reason: to read, write, and appreciate creative work. No influencers selling products. No political rants. No random content stealing attention.\n\nINKWINGS is that rare space - 100% focused on creative writing. Your poetry shares space with poetry. Your stories sit alongside stories. Your audience is here specifically to discover work like yours.",
+      "Imagine a platform where everyone is here for one reason: to read, write, and appreciate creative work. No influencers selling products. No political rants. No random content stealing attention.\n\nVERSEWING is that rare space - 100% focused on creative writing. Your poetry shares space with poetry. Your stories sit alongside stories. Your audience is here specifically to discover work like yours.",
     color: "bg-gradient-to-br from-indigo-500 to-purple-500",
     highlights: ["Pure creative focus", "Dedicated writers", "No distractions"],
   },
@@ -25,7 +25,7 @@ const features = [
     icon: Users,
     title: "Every Creation Deserves Recognition",
     description:
-      "Stop self-censoring. Stop hiding your 'not quite ready' pieces. On INKWINGS, every poem, story, and lyric you publish adds to your creative journey.\n\nReaders can see your evolution. Fellow creators offer genuine feedback. And your experimental work often resonates more than you expect. Nothing gets buried-everything stays accessible, forever.",
+      "Stop self-censoring. Stop hiding your 'not quite ready' pieces. On VERSEWING, every poem, story, and lyric you publish adds to your creative journey.\n\nReaders can see your evolution. Fellow creators offer genuine feedback. And your experimental work often resonates more than you expect. Nothing gets buried-everything stays accessible, forever.",
     color: "bg-gradient-to-br from-purple-500 to-pink-500",
     highlights: ["Show your journey", "Genuine feedback", "Always accessible"],
   },
@@ -33,7 +33,7 @@ const features = [
     icon: TrendingUp,
     title: "Built-in Audience Discovery",
     description:
-      "No follower count required. INKWINGS' discovery system connects your work with readers who actually want to find it. Through genre tags, curated collections, and a community that actively explores, new creators get seen.\n\nYour first poem has the same chance of being discovered as your hundredth. Fresh voices are celebrated here.",
+      "No follower count required. VERSEWING' discovery system connects your work with readers who actually want to find it. Through genre tags, curated collections, and a community that actively explores, new creators get seen.\n\nYour first poem has the same chance of being discovered as your hundredth. Fresh voices are celebrated here.",
     color: "bg-gradient-to-br from-pink-500 to-rose-500",
     highlights: ["Smart discovery", "Genre matching", "Equal opportunity"],
   },
@@ -41,7 +41,7 @@ const features = [
     icon: Archive,
     title: "Forever Preserved, Always Accessible",
     description:
-      "Your creative work isn't temporary content-it's your legacy. INKWINGS archives everything permanently. Five years from now, readers can still discover your early poems. Ten years later, your stories remain accessible.\n\nThink of it as your personal creative museum that the world can visit anytime.",
+      "Your creative work isn't temporary content-it's your legacy. VERSEWING archives everything permanently. Five years from now, readers can still discover your early poems. Ten years later, your stories remain accessible.\n\nThink of it as your personal creative museum that the world can visit anytime.",
     color: "bg-gradient-to-br from-rose-500 to-orange-500",
     highlights: ["Permanent archive", "Your legacy", "Timeless access"],
   },

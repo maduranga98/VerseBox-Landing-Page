@@ -20,7 +20,7 @@ const steps = [
     step: "01",
     title: "Download & Create Your Profile",
     description:
-      "Get started in minutes! Download INKWINGS from your app store and create your unique creative profile. Choose your username, add a bio, and personalize your space.",
+      "Get started in minutes! Download VERSEWING from your app store and create your unique creative profile. Choose your username, add a bio, and personalize your space.",
     color: "from-indigo-500 to-purple-500",
     iconBg: "bg-gradient-to-br from-indigo-500 to-purple-500",
     features: ["2-minute setup", "Personalized profile", "No waiting period"],

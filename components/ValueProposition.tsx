@@ -14,14 +14,14 @@ const valueProps = [
     icon: MessageCircle,
     title: "Real Engagement, Not Vanity Metrics",
     description:
-      "Forget like counts. INKWINGS shows you who's actually reading, how long they spend with your work, and genuine comments from people who absorbed your words. Quality attention over quantity.",
+      "Forget like counts. VERSEWING shows you who's actually reading, how long they spend with your work, and genuine comments from people who absorbed your words. Quality attention over quantity.",
     color: "bg-inkwings-secondary",
   },
   {
     icon: Shield,
     title: "Your Rights, Always Protected",
     description:
-      "You own 100% of your creative work. INKWINGS never claims rights to your poetry, stories, or lyrics. We're just the stage-you're the artist. Publish freely, knowing your intellectual property remains yours.",
+      "You own 100% of your creative work. VERSEWING never claims rights to your poetry, stories, or lyrics. We're just the stage-you're the artist. Publish freely, knowing your intellectual property remains yours.",
     color: "bg-inkwings-accent",
   },
 ];
@@ -36,7 +36,7 @@ export default function ValueProposition() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-inkwings-text mb-4">
-            Why INKWINGS{" "}
+            Why VERSEWING{" "}
             <span className="text-gradient">
               Changes Everything for Creators
             </span>
