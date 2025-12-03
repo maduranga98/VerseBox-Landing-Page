@@ -7,7 +7,7 @@ const personas = [
     icon: BookOpen,
     title: "The Passionate Beginner",
     description:
-      "You've been writing in secret for years. You have dozens of poems in notebooks, stories on your laptop, lyrics in your phone. You're ready to share but don't know where to start.\n\nINKWINGS welcomes you with open arms. No judgment. Just genuine appreciation and constructive feedback from people who get it.",
+      "You've been writing in secret for years. You have dozens of poems in notebooks, stories on your laptop, lyrics in your phone. You're ready to share but don't know where to start.\n\nVERSEWING welcomes you with open arms. No judgment. Just genuine appreciation and constructive feedback from people who get it.",
     color: "bg-inkwings-primary",
   },
   {
@@ -21,14 +21,14 @@ const personas = [
     icon: TrendingUp,
     title: "The Developing Writer",
     description:
-      "You're actively improving your craft. You experiment with styles, try new forms, practice consistently. But you lack a space to showcase your growth journey.\n\nINKWINGS is your public portfolio. Every piece contributes to your visible evolution as a creator.",
+      "You're actively improving your craft. You experiment with styles, try new forms, practice consistently. But you lack a space to showcase your growth journey.\n\nVERSEWING is your public portfolio. Every piece contributes to your visible evolution as a creator.",
     color: "bg-inkwings-accent",
   },
   {
     icon: Award,
     title: "The Recognition Seeker",
     description:
-      "Your work is good-you know it. But somehow, it never gets the recognition it deserves. You're talented but invisible.\n\nINKWINGS levels the playing field. Quality writing gets discovered here. Your talent finally has a chance to shine.",
+      "Your work is good-you know it. But somehow, it never gets the recognition it deserves. You're talented but invisible.\n\nVERSEWING levels the playing field. Quality writing gets discovered here. Your talent finally has a chance to shine.",
     color: "bg-inkwings-primary",
   },
 ];

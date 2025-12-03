@@ -31,16 +31,16 @@ const footerLinks = {
 };
 
 const socialLinks = [
-  { icon: Twitter, href: "https://twitter.com/inkwings", label: "Twitter" },
+  { icon: Twitter, href: "https://twitter.com/versewings", label: "Twitter" },
   {
     icon: Instagram,
-    href: "https://instagram.com/inkwings",
+    href: "https://instagram.com/versewings",
     label: "Instagram",
   },
-  { icon: Youtube, href: "https://youtube.com/@inkwings", label: "YouTube" },
+  { icon: Youtube, href: "https://youtube.com/@versewings", label: "YouTube" },
   {
     icon: Linkedin,
-    href: "https://linkedin.com/company/inkwings",
+    href: "https://linkedin.com/company/versewings",
     label: "LinkedIn",
   },
 ];
@@ -57,10 +57,10 @@ export default function Footer() {
               <InkwingsIcon size={40} />
               <div>
                 <h3 className="text-lg sm:text-xl font-bold text-inkwings-text">
-                  INKWINGS
+                  VERSEWING
                 </h3>
                 <p className="text-xs text-inkwings-text-secondary">
-                  Your Creative Archive
+                  Where Words Take Flight Forever
                 </p>
               </div>
             </div>
@@ -168,7 +168,7 @@ export default function Footer() {
         <div className="border-t border-gray-200 pt-6 sm:pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs sm:text-sm text-inkwings-text-secondary">
           <div className="flex flex-col sm:flex-row items-center gap-1 text-center sm:text-left">
             <span className="flex items-center gap-1">
-              © 2025 INKWINGS. Made with
+              © 2025 VERSEWING. Made with
               <Heart className="w-3 h-3 sm:w-4 sm:h-4 text-inkwings-accent fill-inkwings-accent" />
               for creators
             </span>

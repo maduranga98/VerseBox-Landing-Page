@@ -5,44 +5,44 @@ import { useState } from "react";
 
 const faqs = [
   {
-    question: "Is INKWINGS really free?",
+    question: "Is VERSEWING really free?",
     answer:
       "Yes, completely free. No subscriptions, no paywalls, no hidden costs. We're building a community first, monetization later (and when we do, creators will benefit directly).",
   },
   {
     question: "What types of creative writing can I share?",
     answer:
-      "Poetry, short stories, microfiction, song lyrics, prose, creative essays, flash fiction-if you wrote it and it's creative, it belongs on INKWINGS.",
+      "Poetry, short stories, microfiction, song lyrics, prose, creative essays, flash fiction-if you wrote it and it's creative, it belongs on VERSEWING.",
   },
   {
     question: "Do I need to be a professional writer?",
     answer:
-      "Absolutely not! INKWINGS welcomes all skill levels. Beginners, hobbyists, and professionals all have a place here. It's about the journey, not just the destination.",
+      "Absolutely not! VERSEWING welcomes all skill levels. Beginners, hobbyists, and professionals all have a place here. It's about the journey, not just the destination.",
   },
   {
     question: "Who owns my content?",
     answer:
-      "You do, 100%. You retain all rights to your work. INKWINGS simply has permission to display it on our platform. You can delete your work anytime.",
+      "You do, 100%. You retain all rights to your work. VERSEWING simply has permission to display it on our platform. You can delete your work anytime.",
   },
   {
     question: "How is this different from social media?",
     answer:
-      "Social media is about scrolling. INKWINGS is about reading. There are no distractions, no ads, no competing content types. Just writers and readers who appreciate the craft.",
+      "Social media is about scrolling. VERSEWING is about reading. There are no distractions, no ads, no competing content types. Just writers and readers who appreciate the craft.",
   },
   {
     question: "Can I publish work I've already shared elsewhere?",
     answer:
-      "Yes! Your work can exist in multiple places. If you've published on social media, blogs, or other platforms, you can still share it on INKWINGS.",
+      "Yes! Your work can exist in multiple places. If you've published on social media, blogs, or other platforms, you can still share it on VERSEWING.",
   },
   {
     question: "What if I'm not confident in my writing yet?",
     answer:
-      "Perfect! INKWINGS is designed to help you grow. The community is supportive, feedback is constructive, and everyone remembers being a beginner. Start wherever you are.",
+      "Perfect! VERSEWING is designed to help you grow. The community is supportive, feedback is constructive, and everyone remembers being a beginner. Start wherever you are.",
   },
   {
     question: "How do I get discovered?",
     answer:
-      "Through genre tags, community exploration, and our discovery features. Unlike social media where you need followers first, INKWINGS lets quality work get found by interested readers naturally.",
+      "Through genre tags, community exploration, and our discovery features. Unlike social media where you need followers first, VERSEWING lets quality work get found by interested readers naturally.",
   },
 ];
 

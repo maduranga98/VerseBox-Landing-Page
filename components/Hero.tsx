@@ -61,7 +61,7 @@ export default function Hero() {
             style={{ animationDelay: "0.1s" }}
           >
             Stop letting your poetry, stories, and lyrics get lost in social
-            media noise. INKWINGS is the dedicated platform where your creative
+            media noise. VERSEWING is the dedicated platform where your creative
             writing lives forever, gets discovered, and builds you a real
             audience.
           </p>
@@ -76,7 +76,7 @@ export default function Hero() {
               with memes. Your lyrics get buried under cat videos.
             </p>
             <p>
-              INKWINGS changes everything. It's a distraction-free sanctuary
+              VERSEWING changes everything. It's a distraction-free sanctuary
               built exclusively for writers, poets, and storytellers. Here, your
               work doesn't just exist-it thrives, gets appreciated, and finds
               the audience it deserves.

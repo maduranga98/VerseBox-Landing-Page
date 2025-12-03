@@ -39,7 +39,7 @@ export default function TermsOfService() {
             Terms of Service
           </h2>
           <p className="text-lg text-inkwings-text-secondary max-w-2xl mx-auto">
-            Guidelines and agreements for using INKWINGS platform
+            Guidelines and agreements for using VERSEWING platform
           </p>
         </div>
 

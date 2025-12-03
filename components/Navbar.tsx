@@ -91,12 +91,12 @@ export default function Navbar() {
                 <h1 className={`text-xl md:text-2xl font-bold transition-colors duration-300 ${
                   isScrolled ? "text-inkwings-text" : "text-white"
                 }`}>
-                  INKWINGS
+                  VERSEWING
                 </h1>
                 <p className={`text-xs hidden sm:block transition-colors duration-300 ${
                   isScrolled ? "text-inkwings-text-secondary" : "text-white/80"
                 }`}>
-                  Your Creative Archive
+                  Where Words Take Flight Forever
                 </p>
               </div>
             </a>

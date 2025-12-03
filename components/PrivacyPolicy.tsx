@@ -8,7 +8,7 @@ export default function PrivacyPolicy() {
           {/* Header */}
           <div className="text-center mb-12">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-versebox-text mb-4">
-              Inkwings Privacy Policy & Terms of Service
+              VerseWing Privacy Policy & Terms of Service
             </h1>
             <p className="text-base text-versebox-text-secondary mb-4">
               A product of <strong>Lumora Ventures (PVT) LTD</strong>
@@ -31,14 +31,14 @@ export default function PrivacyPolicy() {
                 1. Introduction
               </h2>
               <p className="text-versebox-text-secondary leading-relaxed">
-                Welcome to Inkwings ("Platform," "we," "us," or "our"). Inkwings
+                Welcome to VerseWing ("Platform," "we," "us," or "our"). VerseWing
                 provides a platform for users to share, discover, and preserve
                 creative writing including poetry, stories, lyrics, quotes, and
                 microfiction. This Privacy Policy and Terms of Service
                 ("Agreement") governs your access to and use of our services.
               </p>
               <p className="text-versebox-text-secondary leading-relaxed">
-                By using Inkwings, you agree to this Agreement. If you do not
+                By using VerseWing, you agree to this Agreement. If you do not
                 agree, please do not use our Platform.
               </p>
             </section>
@@ -55,7 +55,7 @@ export default function PrivacyPolicy() {
               <p className="text-versebox-text-secondary leading-relaxed mb-4">
                 <strong>
                   You retain complete ownership of all content you publish on
-                  Inkwings.
+                  VerseWing.
                 </strong>{" "}
                 We make no claim to ownership of your creative works, including
                 but not limited to:
@@ -69,10 +69,10 @@ export default function PrivacyPolicy() {
               </ul>
 
               <h3 className="text-xl font-semibold text-versebox-text mb-3">
-                2.2 License Grant to Inkwings
+                2.2 License Grant to VerseWing
               </h3>
               <p className="text-versebox-text-secondary leading-relaxed mb-4">
-                By publishing content on Inkwings, you grant us a{" "}
+                By publishing content on VerseWing, you grant us a{" "}
                 <strong>non-exclusive, worldwide, royalty-free license</strong>{" "}
                 to:
               </p>
@@ -125,7 +125,7 @@ export default function PrivacyPolicy() {
                 3.1 Copyright Infringement Policy
               </h3>
               <p className="text-versebox-text-secondary leading-relaxed mb-4">
-                Inkwings respects intellectual property rights and expects users
+                VerseWing respects intellectual property rights and expects users
                 to do the same. We maintain a{" "}
                 <strong>strict copyright protection system</strong>.
               </p>
@@ -254,7 +254,7 @@ export default function PrivacyPolicy() {
                 4.1 Platform as a Neutral Host
               </h3>
               <p className="text-versebox-text-secondary leading-relaxed mb-4">
-                Inkwings serves <strong>only as a platform</strong> for
+                VerseWing serves <strong>only as a platform</strong> for
                 showcasing creative content. We:
               </p>
               <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1">
@@ -290,7 +290,7 @@ export default function PrivacyPolicy() {
                 4.3 Disclaimer of Warranties
               </h3>
               <p className="text-versebox-text-secondary leading-relaxed mb-4">
-                Inkwings is provided "as is" without warranties of any kind. We
+                VerseWing is provided "as is" without warranties of any kind. We
                 do not guarantee:
               </p>
               <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1">
@@ -357,7 +357,7 @@ export default function PrivacyPolicy() {
               <ul className="list-disc list-inside text-versebox-text-secondary space-y-1">
                 <li>
                   <strong>
-                    Plagiarize or republish content found on Inkwings
+                    Plagiarize or republish content found on VerseWing
                   </strong>{" "}
                   as their own work elsewhere
                 </li>
@@ -380,7 +380,7 @@ export default function PrivacyPolicy() {
               </h3>
               <p className="text-versebox-text-secondary leading-relaxed mb-4">
                 <strong>
-                  Creating external publications using content from Inkwings
+                  Creating external publications using content from VerseWing
                   without proper permission and attribution is strictly
                   prohibited.
                 </strong>{" "}
@@ -642,7 +642,7 @@ export default function PrivacyPolicy() {
                 9. Children's Privacy
               </h2>
               <p className="text-versebox-text-secondary leading-relaxed mb-4">
-                Inkwings is open to users of all ages, including children. We
+                VerseWing is open to users of all ages, including children. We
                 take children's privacy seriously:
               </p>
               <ul className="list-disc list-inside text-versebox-text-secondary space-y-1 mb-4">
@@ -664,7 +664,7 @@ export default function PrivacyPolicy() {
             <section>
               <h2 className="text-2xl font-bold text-inkwings-text mb-4">10. International Users</h2>
               <p className="text-inkwings-text-secondary leading-relaxed mb-4">
-                Inkwing is operated from [Your Country]. By using the Platform:
+                VerseWing is operated from [Your Country]. By using the Platform:
               </p>
               <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1">
                 <li>You consent to data transfer and processing in [Your Country]</li>
@@ -693,7 +693,7 @@ export default function PrivacyPolicy() {
                 12. User Responsibilities
               </h2>
               <p className="text-versebox-text-secondary leading-relaxed mb-4">
-                As an Inkwings user, you agree to:
+                As a VerseWing user, you agree to:
               </p>
               <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1">
                 <li>Respect intellectual property rights</li>
@@ -746,7 +746,7 @@ export default function PrivacyPolicy() {
                 14. Third-Party Links & Services
               </h2>
               <p className="text-versebox-text-secondary leading-relaxed mb-4">
-                Inkwings may contain links to third-party websites or services:
+                VerseWing may contain links to third-party websites or services:
               </p>
               <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1">
                 <li>We are not responsible for their privacy practices</li>
@@ -809,7 +809,7 @@ export default function PrivacyPolicy() {
               </h2>
               <p className="text-versebox-text-secondary leading-relaxed">
                 This Agreement constitutes the entire agreement between you and
-                Inkwings regarding use of the Platform and supersedes any prior
+                VerseWing regarding use of the Platform and supersedes any prior
                 agreements.
               </p>
             </section>
@@ -821,13 +821,13 @@ export default function PrivacyPolicy() {
                 For questions, concerns, or to report violations:
               </p>
               <div className="space-y-2 text-inkwings-text-secondary">
-                <p><strong className="text-inkwings-text">Email:</strong> support@inkwing.com</p>
-                <p><strong className="text-inkwings-text">Copyright Issues:</strong> copyright@inkwing.com</p>
-                <p><strong className="text-inkwings-text">Privacy Concerns:</strong> privacy@inkwing.com</p>
-                <p><strong className="text-inkwings-text">General Inquiries:</strong> info@inkwing.com</p>
+                <p><strong className="text-inkwings-text">Email:</strong> support@versewing.com</p>
+                <p><strong className="text-inkwings-text">Copyright Issues:</strong> copyright@versewing.com</p>
+                <p><strong className="text-inkwings-text">Privacy Concerns:</strong> privacy@versewing.com</p>
+                <p><strong className="text-inkwings-text">General Inquiries:</strong> info@versewing.com</p>
                 <div className="mt-4">
                   <p><strong className="text-inkwings-text">Mailing Address:</strong></p>
-                  <p>Inkwing</p>
+                  <p>VerseWing</p>
                   <p>[Your Physical Address]</p>
                   <p>[City, State, ZIP]</p>
                   <p>[Country]</p>
@@ -839,7 +839,7 @@ export default function PrivacyPolicy() {
             <section>
               <h2 className="text-2xl font-bold text-inkwings-text mb-4">19. Acknowledgment</h2>
               <p className="text-inkwings-text-secondary leading-relaxed mb-4">
-                By using Inkwing, you acknowledge that:
+                By using VerseWing, you acknowledge that:
               </p>
               <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1 mb-4">
                 <li>You have read and understood this Agreement</li>
@@ -848,7 +848,7 @@ export default function PrivacyPolicy() {
                 <li>You consent to our data practices as described</li>
               </ul>
               <p className="text-inkwings-text-secondary leading-relaxed">
-                <strong>Your continued use of Inkwing constitutes ongoing agreement to these terms.</strong>
+                <strong>Your continued use of VerseWing constitutes ongoing agreement to these terms.</strong>
               </p>
             </section>
 
@@ -892,7 +892,7 @@ export default function PrivacyPolicy() {
 
               <h3 className="text-xl font-semibold text-inkwings-text mb-3">20.4 Content Licensing to Third Parties</h3>
               <p className="text-inkwings-text-secondary leading-relaxed mb-4">
-                <strong>You retain all rights to license your content to third parties.</strong> Inkwing does not interfere with:
+                <strong>You retain all rights to license your content to third parties.</strong> VerseWing does not interfere with:
               </p>
               <ul className="list-disc list-inside text-inkwings-text-secondary space-y-1">
                 <li>Your ability to publish elsewhere</li>
@@ -905,7 +905,7 @@ export default function PrivacyPolicy() {
             {/* Closing Statement */}
             <section className="text-center py-8 border-t-2 border-inkwings-surface">
               <p className="text-lg text-inkwings-text font-semibold mb-4">
-                Thank you for being part of the Inkwing community. Together, we're preserving creative expression for generations to come.
+                Thank you for being part of the VerseWing community. Together, we're preserving creative expression for generations to come.
               </p>
               <p className="text-sm text-inkwings-text-secondary italic">
                 This document is a legally binding agreement. We recommend consulting with a legal professional to ensure it meets your specific needs and complies with all applicable laws in your jurisdiction.
