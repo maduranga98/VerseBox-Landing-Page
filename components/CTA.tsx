@@ -20,8 +20,7 @@ export default function CTA() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle email submission (integrate with your backend)
-    console.log("Email submitted:", email);
+    // TODO: Handle email submission (integrate with your backend)
     setIsSubmitted(true);
     setTimeout(() => {
       setIsSubmitted(false);
