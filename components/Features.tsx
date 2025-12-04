@@ -93,12 +93,12 @@ export default function Features() {
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-white rounded-full mb-6 shadow-lg">
             <Star className="w-4 h-4 text-yellow-500 fill-yellow-500" />
             <span className="text-sm font-semibold text-gray-700">
-              Why Choose INKWINGS
+              Why Choose VERSEWING
             </span>
             <Star className="w-4 h-4 text-yellow-500 fill-yellow-500" />
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-inkwings-text mb-4">
-            INKWINGS: Where Your Creative Work
+            VERSEWING: Where Your Creative Work
             <br />
             <span className="text-gradient">Finally Gets Its Own Home</span>
           </h2>

@@ -81,7 +81,7 @@ export default function CTA() {
                   find their audience.
                 </p>
                 <p className="font-semibold text-white">
-                  Download INKWINGS today and become one of the founding
+                  Download VERSEWING today and become one of the founding
                   creators. Your first piece could be published in the next 10
                   minutes. Your audience is waiting to discover you.
                 </p>
