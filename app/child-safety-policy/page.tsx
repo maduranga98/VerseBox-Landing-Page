@@ -1,13 +1,14 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Copyright from "@/components/Copyright";
+import ChildSafety from "@/components/ChildSafety";
 
 export const metadata = {
   title: "Child Safety Policy - VERSEWING",
   description: "Learn about Child Safety Policy on VERSEWING.",
 };
 
-export default function ChildSafety() {
+export default function ChildSafetyPage() {
   return (
     <main className="min-h-screen">
       <Navbar />
@@ -15,6 +16,7 @@ export default function ChildSafety() {
         <ChildSafety />
       </div>
       <Footer />
+      <Copyright />
     </main>
   );
 }
