@@ -1,12 +1,6 @@
 "use client";
 
-import {
-  Twitter,
-  Instagram,
-  Youtube,
-  Linkedin,
-  Heart,
-} from "lucide-react";
+import { Twitter, Instagram, Youtube, Linkedin, Heart } from "lucide-react";
 import InkwingsIcon from "./InkwingsIcon";
 
 const footerLinks = {
@@ -17,6 +11,7 @@ const footerLinks = {
   ],
   legal: [
     { name: "Privacy Policy", href: "/privacy-policy" },
+    { name: "Child Safety Policy", href: "/child-safety-policy" },
     { name: "Terms of Service", href: "/terms-of-service" },
     { name: "Copyright", href: "/copyright" },
   ],
@@ -83,7 +78,9 @@ export default function Footer() {
 
           {/* Links columns */}
           <div>
-            <h4 className="font-semibold text-inkwings-text mb-3 sm:mb-4 text-sm sm:text-base">Product</h4>
+            <h4 className="font-semibold text-inkwings-text mb-3 sm:mb-4 text-sm sm:text-base">
+              Product
+            </h4>
             <ul className="space-y-2 sm:space-y-3">
               {footerLinks.product.map((link, index) => (
                 <li key={index}>
@@ -99,7 +96,9 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-semibold text-inkwings-text mb-3 sm:mb-4 text-sm sm:text-base">Legal</h4>
+            <h4 className="font-semibold text-inkwings-text mb-3 sm:mb-4 text-sm sm:text-base">
+              Legal
+            </h4>
             <ul className="space-y-2 sm:space-y-3">
               {footerLinks.legal.map((link, index) => (
                 <li key={index}>
@@ -123,7 +122,9 @@ export default function Footer() {
               <Heart className="w-3 h-3 sm:w-4 sm:h-4 text-inkwings-accent fill-inkwings-accent" />
               for creators
             </span>
-            <span className="hidden sm:inline">worldwide • Launching Q1 2026</span>
+            <span className="hidden sm:inline">
+              worldwide • Launching Q1 2026
+            </span>
             <span className="sm:hidden">worldwide</span>
           </div>
 
