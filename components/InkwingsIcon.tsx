@@ -9,8 +9,8 @@ export default function InkwingsIcon({ size = 64 }: { size?: number }) {
       style={{ width: size + 12, height: size + 12 }}
     >
       <Image
-        src="/inkwings-logo.svg"
-        alt="INKWINGS Logo"
+        src="/versewing-logo.svg"
+        alt="VERSEWING Logo"
         width={size}
         height={size}
         className="relative"

@@ -75,7 +75,7 @@ export default function TermsOfService() {
             <div>
               <h4 className="font-semibold text-inkwings-text mb-2">1. Acceptance of Terms</h4>
               <p>
-                By accessing or using INKWINGS, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our platform.
+                By accessing or using VERSEWING, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our platform.
               </p>
             </div>
 
@@ -89,14 +89,14 @@ export default function TermsOfService() {
             <div>
               <h4 className="font-semibold text-inkwings-text mb-2">3. Content Ownership and Rights</h4>
               <p>
-                You retain all rights to the creative works you publish on INKWINGS. By publishing content, you grant us a license to display, distribute, and promote your work on our platform. You represent that you have the right to publish all content you share.
+                You retain all rights to the creative works you publish on VERSEWING. By publishing content, you grant us a license to display, distribute, and promote your work on our platform. You represent that you have the right to publish all content you share.
               </p>
             </div>
 
             <div>
               <h4 className="font-semibold text-inkwings-text mb-2">4. Acceptable Use</h4>
               <p>
-                You agree to use INKWINGS only for lawful purposes. Prohibited activities include but are not limited to: posting plagiarized content, harassing other users, distributing malware, or attempting to compromise platform security.
+                You agree to use VERSEWING only for lawful purposes. Prohibited activities include but are not limited to: posting plagiarized content, harassing other users, distributing malware, or attempting to compromise platform security.
               </p>
             </div>
 
@@ -110,7 +110,7 @@ export default function TermsOfService() {
             <div>
               <h4 className="font-semibold text-inkwings-text mb-2">6. Limitation of Liability</h4>
               <p>
-                INKWINGS is provided "as is" without warranties of any kind. We are not liable for any damages arising from your use of the platform or inability to access your content.
+                VERSEWING is provided "as is" without warranties of any kind. We are not liable for any damages arising from your use of the platform or inability to access your content.
               </p>
             </div>
 

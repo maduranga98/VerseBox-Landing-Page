@@ -75,7 +75,7 @@ export default function ValueProposition() {
             href="#download"
             className="inline-flex items-center gap-2 px-8 py-4 bg-inkwings-gradient text-white font-semibold rounded-full hover:shadow-inkwings-lg transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 active:scale-95"
           >
-            Claim Your Space - Download INKWINGS
+            Claim Your Space - Download VERSEWING
           </a>
         </div>
       </div>

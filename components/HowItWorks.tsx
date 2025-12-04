@@ -131,7 +131,7 @@ export default function HowItWorks() {
             <span className="text-gradient">Published Artist</span>
           </h2>
           <p className="text-xl text-inkwings-text-secondary max-w-3xl mx-auto">
-            Join thousands of creators who found their audience on INKWINGS
+            Join thousands of creators who found their audience on VERSEWING
           </p>
         </div>
 

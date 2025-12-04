@@ -7,7 +7,7 @@ const copyrightPoints = [
     icon: Award,
     title: "You Own Your Work",
     description:
-      "All creative content you publish on INKWINGS remains your intellectual property. We never claim ownership of your work.",
+      "All creative content you publish on VERSEWING remains your intellectual property. We never claim ownership of your work.",
   },
   {
     icon: FileCheck,
@@ -73,30 +73,30 @@ export default function Copyright() {
           </h3>
           <div className="space-y-4 text-inkwings-text-secondary">
             <p>
-              <strong className="text-inkwings-text">Your Rights as a Creator:</strong> When you publish creative content on INKWINGS, you retain full copyright ownership of your work. By publishing, you grant INKWINGS a non-exclusive license to display and distribute your content on our platform.
+              <strong className="text-inkwings-text">Your Rights as a Creator:</strong> When you publish creative content on VERSEWING, you retain full copyright ownership of your work. By publishing, you grant VERSEWING a non-exclusive license to display and distribute your content on our platform.
             </p>
             <p>
-              <strong className="text-inkwings-text">Original Content Only:</strong> All content published on INKWINGS must be original work created by you, or you must have explicit permission to share it. Plagiarism and copyright infringement are strictly prohibited and may result in account termination.
+              <strong className="text-inkwings-text">Original Content Only:</strong> All content published on VERSEWING must be original work created by you, or you must have explicit permission to share it. Plagiarism and copyright infringement are strictly prohibited and may result in account termination.
             </p>
             <p>
-              <strong className="text-inkwings-text">DMCA Notice and Takedown:</strong> If you believe your copyrighted work has been infringed on INKWINGS, please submit a DMCA takedown notice to our designated copyright agent. We will investigate and take appropriate action in accordance with the Digital Millennium Copyright Act.
+              <strong className="text-inkwings-text">DMCA Notice and Takedown:</strong> If you believe your copyrighted work has been infringed on VERSEWING, please submit a DMCA takedown notice to our designated copyright agent. We will investigate and take appropriate action in accordance with the Digital Millennium Copyright Act.
             </p>
             <p>
               <strong className="text-inkwings-text">Attribution and Fair Use:</strong> When sharing or referencing other creators' work, always provide proper attribution. Fair use exceptions may apply in certain cases, but when in doubt, seek permission from the original creator.
             </p>
             <p>
-              <strong className="text-inkwings-text">Platform Brand Assets:</strong> The INKWINGS name, logo, and brand assets are protected by copyright and trademark laws. Use of our brand assets requires prior written permission.
+              <strong className="text-inkwings-text">Platform Brand Assets:</strong> The VERSEWING name, logo, and brand assets are protected by copyright and trademark laws. Use of our brand assets requires prior written permission.
             </p>
             <div className="bg-inkwings-surface rounded-lg p-6 mt-6">
               <h4 className="font-semibold text-inkwings-text mb-3">Copyright Agent Contact</h4>
               <p className="text-sm">
                 For DMCA notices or copyright concerns:<br />
-                Email: copyright@inkwings.com<br />
+                Email: copyright@versewing.com<br />
                 Subject: DMCA Takedown Request / Copyright Inquiry
               </p>
             </div>
             <p className="text-sm pt-4">
-              © 2025 INKWINGS. All rights reserved. Last updated: January 2025.
+              © 2025 VERSEWING. All rights reserved. Last updated: January 2025.
             </p>
           </div>
         </div>

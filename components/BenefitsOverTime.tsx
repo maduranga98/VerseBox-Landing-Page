@@ -77,7 +77,7 @@ export default function BenefitsOverTime() {
             <span className="text-gradient">Grows With You</span>
           </h2>
           <p className="text-lg text-inkwings-text-secondary max-w-2xl mx-auto">
-            Every great creator starts somewhere. Watch how INKWINGS evolves with your creative journey.
+            Every great creator starts somewhere. Watch how VERSEWING evolves with your creative journey.
           </p>
         </div>
 

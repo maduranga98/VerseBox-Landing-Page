@@ -70,7 +70,7 @@ export default function Problem() {
             href="#download"
             className="inline-flex items-center gap-2 px-8 py-4 bg-inkwings-gradient text-white font-semibold rounded-full hover:shadow-inkwings-lg transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 active:scale-95"
           >
-            Download INKWINGS - Built for Creators Like You
+            Download VERSEWING - Built for Creators Like You
           </a>
         </div>
       </div>

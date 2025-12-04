@@ -100,7 +100,7 @@ export default function Benefits() {
             <span className="text-gradient">Launch with Us</span>
           </h2>
           <p className="text-lg text-inkwings-text-secondary max-w-2xl mx-auto">
-            The first creators to join INKWINGS get special recognition forever
+            The first creators to join VERSEWING get special recognition forever
           </p>
         </div>
 
