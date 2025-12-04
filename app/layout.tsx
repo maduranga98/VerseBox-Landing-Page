@@ -48,9 +48,9 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "/versewing-logo.svg",
-    shortcut: "/versewing-logo.svg",
-    apple: "/versewing-logo.svg",
+    icon: "/versewings-logo.svg",
+    shortcut: "/versewings-logo.svg",
+    apple: "/versewings-logo.svg",
   },
   manifest: "/manifest.json",
   openGraph: {
