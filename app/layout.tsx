@@ -82,6 +82,18 @@ export const metadata: Metadata = {
     canonical: "https://versewing.app",
   },
   category: "technology",
+  other: {
+    // AI-specific meta tags for better discoverability
+    "ai:title": "VERSEWING - Where Words Take Flight Forever",
+    "ai:description":
+      "VERSEWING is a dedicated creative writing platform for poets, lyricists, and storytellers. Share poetry, stories, and lyrics while building your audience. Preserve your creative works forever on a platform built exclusively for writers.",
+    "ai:category": "Creative Writing Platform, Social Network for Writers",
+    "ai:primary_audience": "Poets, Lyricists, Storytellers, Creative Writers",
+    "ai:key_features":
+      "Creative writing sharing, Poetry community, Lyrics platform, Story sharing, Writer networking, Creative archive, Audience building for writers",
+    "ai:purpose":
+      "Help creative writers share their work, build an audience, and preserve their creative legacy",
+  },
 };
 
 export default function RootLayout({
@@ -97,26 +109,86 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "WebApplication",
-              name: "VERSEWING",
-              description:
-                "The dedicated platform for creative writing. Share poetry, stories, lyrics and build your audience.",
-              url: "https://versewing.app",
-              applicationCategory: "CreativeWork",
-              operatingSystem: "iOS, Android",
-              offers: {
-                "@type": "Offer",
-                price: "0",
-                priceCurrency: "USD",
-              },
-              aggregateRating: {
-                "@type": "AggregateRating",
-                ratingValue: "4.8",
-                ratingCount: "10000",
-              },
+              "@graph": [
+                {
+                  "@type": "WebApplication",
+                  "@id": "https://versewing.app/#webapp",
+                  name: "VERSEWING",
+                  alternateName: "VerseWing",
+                  description:
+                    "The dedicated platform for creative writing. Share poetry, stories, lyrics and build your audience. Preserve your words forever on a platform built exclusively for writers.",
+                  url: "https://versewing.app",
+                  applicationCategory: "CreativeWork",
+                  operatingSystem: "iOS, Android, Web",
+                  browserRequirements: "Requires JavaScript. Requires HTML5.",
+                  offers: {
+                    "@type": "Offer",
+                    price: "0",
+                    priceCurrency: "USD",
+                    availability: "https://schema.org/InStock",
+                  },
+                  aggregateRating: {
+                    "@type": "AggregateRating",
+                    ratingValue: "4.8",
+                    ratingCount: "10000",
+                  },
+                  featureList: [
+                    "Share poetry and creative writing",
+                    "Build writer audience",
+                    "Preserve creative works",
+                    "Connect with other writers",
+                    "Publish stories and lyrics",
+                  ],
+                },
+                {
+                  "@type": "Organization",
+                  "@id": "https://versewing.app/#organization",
+                  name: "VERSEWING",
+                  url: "https://versewing.app",
+                  logo: {
+                    "@type": "ImageObject",
+                    url: "https://versewing.app/versewings-logo.svg",
+                  },
+                  description:
+                    "A creative writing platform dedicated to poets, lyricists, and storytellers.",
+                  sameAs: ["https://twitter.com/versewings"],
+                  contactPoint: {
+                    "@type": "ContactPoint",
+                    contactType: "Customer Support",
+                    availableLanguage: "English",
+                  },
+                },
+                {
+                  "@type": "WebSite",
+                  "@id": "https://versewing.app/#website",
+                  url: "https://versewing.app",
+                  name: "VERSEWING",
+                  description:
+                    "Where Words Take Flight Forever - The dedicated platform for creative writing",
+                  publisher: {
+                    "@id": "https://versewing.app/#organization",
+                  },
+                  inLanguage: "en-US",
+                },
+              ],
             }),
           }}
         />
+        {/* Additional meta tags for AI and search engines */}
+        <meta name="abstract" content="Creative writing platform for poets, lyricists, and storytellers" />
+        <meta name="topic" content="Creative Writing, Poetry, Lyrics, Storytelling" />
+        <meta name="summary" content="Share and preserve your creative writing on VERSEWING - a platform built exclusively for writers" />
+        <meta name="Classification" content="Creative Writing Platform" />
+        <meta name="designer" content="VERSEWING" />
+        <meta name="reply-to" content="support@versewing.app" />
+        <meta name="owner" content="VERSEWING" />
+        <meta name="url" content="https://versewing.app" />
+        <meta name="identifier-URL" content="https://versewing.app" />
+        <meta name="coverage" content="Worldwide" />
+        <meta name="distribution" content="Global" />
+        <meta name="rating" content="General" />
+        <meta name="revisit-after" content="7 days" />
+        <meta httpEquiv="content-language" content="en-US" />
       </head>
       {/* suppressHydrationWarning prevents errors from browser extensions that modify the body tag */}
       <body suppressHydrationWarning>{children}</body>
