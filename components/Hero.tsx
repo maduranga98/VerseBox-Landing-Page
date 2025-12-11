@@ -89,7 +89,9 @@ export default function Hero() {
           >
             <div className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
               <a
-                href="#download"
+                href="https://play.google.com/store/apps/details?id=com.versewing.app&pcampaignid=web_share"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group px-8 py-4 bg-white text-inkwings-primary font-semibold rounded-full hover:shadow-inkwings-lg transition-all flex items-center gap-2 w-full sm:w-auto justify-center"
               >
                 <svg viewBox="0 0 128 128" className="w-5 h-5">

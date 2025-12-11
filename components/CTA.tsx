@@ -90,7 +90,9 @@ export default function CTA() {
               <div className="space-y-4 mb-8">
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
                   <a
-                    href="#waitlist"
+                    href="https://play.google.com/store/apps/details?id=com.versewing.app&pcampaignid=web_share"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="group px-6 py-4 bg-white text-purple-600 font-bold rounded-2xl hover:shadow-2xl transition-all duration-300 flex items-center justify-center gap-3 hover:scale-105 active:scale-95"
                   >
                     <svg viewBox="0 0 128 128" className="w-5 h-5">
