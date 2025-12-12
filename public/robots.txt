@@ -37,4 +37,4 @@ Allow: /
 # Disallow: /admin/
 
 # Sitemap location
-Sitemap: https://www.versewing.com/sitemap.xml
+Sitemap: https://versewing.app/sitemap.xml
