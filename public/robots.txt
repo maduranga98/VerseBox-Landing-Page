@@ -36,5 +36,11 @@ Allow: /
 # Disallow admin or private paths if any
 # Disallow: /admin/
 
+# Disallow favicon files from being indexed (they're images, not pages)
+Disallow: /favicon.ico
+Disallow: /favicons/
+Disallow: /*.ico$
+Disallow: /favicons/*.png$
+
 # Sitemap location
 Sitemap: https://versewing.app/sitemap.xml
