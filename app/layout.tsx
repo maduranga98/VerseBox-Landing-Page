@@ -12,7 +12,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://versewing.app"),
+  metadataBase: new URL("https://www.versewing.com"),
   title: {
     default: "VERSEWING - Where Words Take Flight Forever",
     template: "%s | VERSEWING",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     "writer community",
     "creative writing app",
   ],
-  authors: [{ name: "VERSEWING", url: "https://versewing.app" }],
+  authors: [{ name: "VERSEWING", url: "https://www.versewing.com" }],
   creator: "VERSEWING",
   publisher: "VERSEWING",
   robots: {
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://versewing.app",
+    url: "https://www.versewing.com",
     title: "VERSEWING - Where Words Take Flight Forever",
     description:
       "The dedicated platform for creative writing. Share your creativity and preserve it forever on a platform built exclusively for writers.",
@@ -79,7 +79,7 @@ export const metadata: Metadata = {
     images: ["/og-image.png"],
   },
   alternates: {
-    canonical: "https://versewing.app",
+    canonical: "https://www.versewing.com",
   },
   category: "technology",
   other: {
@@ -124,12 +124,12 @@ export default function RootLayout({
               "@graph": [
                 {
                   "@type": "WebApplication",
-                  "@id": "https://versewing.app/#webapp",
+                  "@id": "https://www.versewing.com/#webapp",
                   name: "VERSEWING",
                   alternateName: "VerseWing",
                   description:
                     "The dedicated platform for creative writing. Share poetry, stories, lyrics and build your audience. Preserve your words forever on a platform built exclusively for writers.",
-                  url: "https://versewing.app",
+                  url: "https://www.versewing.com",
                   applicationCategory: "CreativeWork",
                   operatingSystem: "iOS, Android, Web",
                   browserRequirements: "Requires JavaScript. Requires HTML5.",
@@ -154,12 +154,12 @@ export default function RootLayout({
                 },
                 {
                   "@type": "Organization",
-                  "@id": "https://versewing.app/#organization",
+                  "@id": "https://www.versewing.com/#organization",
                   name: "VERSEWING",
-                  url: "https://versewing.app",
+                  url: "https://www.versewing.com",
                   logo: {
                     "@type": "ImageObject",
-                    url: "https://versewing.app/versewings-logo.svg",
+                    url: "https://www.versewing.com/versewings-logo.svg",
                   },
                   description:
                     "A creative writing platform dedicated to poets, lyricists, and storytellers.",
@@ -172,13 +172,13 @@ export default function RootLayout({
                 },
                 {
                   "@type": "WebSite",
-                  "@id": "https://versewing.app/#website",
-                  url: "https://versewing.app",
+                  "@id": "https://www.versewing.com/#website",
+                  url: "https://www.versewing.com",
                   name: "VERSEWING",
                   description:
                     "Where Words Take Flight Forever - The dedicated platform for creative writing",
                   publisher: {
-                    "@id": "https://versewing.app/#organization",
+                    "@id": "https://www.versewing.com/#organization",
                   },
                   inLanguage: "en-US",
                 },
@@ -186,6 +186,8 @@ export default function RootLayout({
             }),
           }}
         />
+        {/* Facebook domain verification */}
+        <meta name="facebook-domain-verification" content="b6j6jdair7elbilwp2ttepqyomaj8o" />
         {/* Additional meta tags for AI and search engines */}
         <meta name="abstract" content="Creative writing platform for poets, lyricists, and storytellers" />
         <meta name="topic" content="Creative Writing, Poetry, Lyrics, Storytelling" />
@@ -194,8 +196,8 @@ export default function RootLayout({
         <meta name="designer" content="VERSEWING" />
         <meta name="reply-to" content="support@versewing.app" />
         <meta name="owner" content="VERSEWING" />
-        <meta name="url" content="https://versewing.app" />
-        <meta name="identifier-URL" content="https://versewing.app" />
+        <meta name="url" content="https://www.versewing.com" />
+        <meta name="identifier-URL" content="https://www.versewing.com" />
         <meta name="coverage" content="Worldwide" />
         <meta name="distribution" content="Global" />
         <meta name="rating" content="General" />
