@@ -43,4 +43,4 @@ Disallow: /*.ico$
 Disallow: /favicons/*.png$
 
 # Sitemap location
-Sitemap: https://www.versewing.com/sitemap.xml
+Sitemap: https://versewing.com/sitemap.xml
