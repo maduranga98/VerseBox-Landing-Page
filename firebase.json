@@ -1,13 +1,18 @@
 {
   "hosting": {
     "public": "out",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "cleanUrls": true,
     "trailingSlash": false,
+
+    "redirects": [
+      {
+        "source": "/",
+        "destination": "https://versewing.com",
+        "type": 301
+      }
+    ],
+
     "headers": [
       {
         "source": "**/*.@(jpg|jpeg|gif|png|svg|webp|avif|ico)",
@@ -65,6 +70,13 @@
             "value": "strict-origin-when-cross-origin"
           }
         ]
+      }
+    ],
+
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
       }
     ]
   }
