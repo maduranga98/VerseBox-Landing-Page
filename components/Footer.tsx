@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { Twitter, Instagram, Youtube, Linkedin, Heart } from "lucide-react";
 import InkwingsIcon from "./InkwingsIcon";
 
@@ -84,12 +85,12 @@ export default function Footer() {
             <ul className="space-y-2 sm:space-y-3">
               {footerLinks.product.map((link, index) => (
                 <li key={index}>
-                  <a
+                  <Link
                     href={link.href}
                     className="text-inkwings-text-secondary hover:text-inkwings-primary transition-colors text-xs sm:text-sm"
                   >
                     {link.name}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -102,12 +103,12 @@ export default function Footer() {
             <ul className="space-y-2 sm:space-y-3">
               {footerLinks.legal.map((link, index) => (
                 <li key={index}>
-                  <a
+                  <Link
                     href={link.href}
                     className="text-inkwings-text-secondary hover:text-inkwings-primary transition-colors text-xs sm:text-sm"
                   >
                     {link.name}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -129,24 +130,24 @@ export default function Footer() {
           </div>
 
           <div className="flex items-center gap-4 sm:gap-6">
-            <a
+            <Link
               href="/privacy-policy"
               className="hover:text-inkwings-primary transition-colors"
             >
               Privacy
-            </a>
-            <a
+            </Link>
+            <Link
               href="/terms-of-service"
               className="hover:text-inkwings-primary transition-colors"
             >
               Terms
-            </a>
-            <a
+            </Link>
+            <Link
               href="/copyright"
               className="hover:text-inkwings-primary transition-colors"
             >
               Copyright
-            </a>
+            </Link>
           </div>
         </div>
       </div>
