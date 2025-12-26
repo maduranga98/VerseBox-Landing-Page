@@ -1,3 +1,4 @@
+import { Metadata } from 'next'
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
 import HowItWorks from "@/components/HowItWorks";
@@ -10,6 +11,11 @@ import WhoIsItFor from "@/components/WhoIsItFor";
 import ValueProposition from "@/components/ValueProposition";
 import BenefitsOverTime from "@/components/BenefitsOverTime";
 import FAQ from "@/components/FAQ";
+
+export const metadata: Metadata = {
+  title: 'VerseWing - Where Words Take Flight Forever',
+  description: 'The permanent home for poetry, stories, lyrics, and creative writing. Preserve your words, build your audience, and let your creativity soar.',
+}
 
 export default function Home() {
   return (
