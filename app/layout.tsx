@@ -12,7 +12,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.versewing.com"),
+  metadataBase: new URL("https://versewing.com"),
   title: {
     default: "VERSEWING - Where Words Take Flight Forever",
     template: "%s | VERSEWING",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     "writer community",
     "creative writing app",
   ],
-  authors: [{ name: "VERSEWING", url: "https://www.versewing.com" }],
+  authors: [{ name: "VERSEWING", url: "https://versewing.com" }],
   creator: "VERSEWING",
   publisher: "VERSEWING",
   robots: {
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://www.versewing.com",
+    url: "https://versewing.com",
     title: "VERSEWING - Where Words Take Flight Forever",
     description:
       "The dedicated platform for creative writing. Share your creativity and preserve it forever on a platform built exclusively for writers.",
@@ -75,11 +75,11 @@ export const metadata: Metadata = {
     title: "VERSEWING - Where Words Take Flight Forever",
     description:
       "The dedicated platform for creative writing. Share poetry, stories, lyrics and build your audience.",
-    creator: "@versewings",
+    creator: "@versewing",
     images: ["/og-image.png"],
   },
   alternates: {
-    canonical: "https://www.versewing.com",
+    canonical: "https://versewing.com",
   },
   category: "technology",
   other: {
@@ -105,7 +105,10 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* Google tag (gtag.js) */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZZ8L0NPX9S"></script>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-ZZ8L0NPX9S"
+        ></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -124,12 +127,12 @@ export default function RootLayout({
               "@graph": [
                 {
                   "@type": "WebApplication",
-                  "@id": "https://www.versewing.com/#webapp",
+                  "@id": "https://versewing.com/#webapp",
                   name: "VERSEWING",
                   alternateName: "VerseWing",
                   description:
                     "The dedicated platform for creative writing. Share poetry, stories, lyrics and build your audience. Preserve your words forever on a platform built exclusively for writers.",
-                  url: "https://www.versewing.com",
+                  url: "https://versewing.com",
                   applicationCategory: "CreativeWork",
                   operatingSystem: "iOS, Android, Web",
                   browserRequirements: "Requires JavaScript. Requires HTML5.",
@@ -154,16 +157,16 @@ export default function RootLayout({
                 },
                 {
                   "@type": "Organization",
-                  "@id": "https://www.versewing.com/#organization",
+                  "@id": "https://versewing.com/#organization",
                   name: "VERSEWING",
-                  url: "https://www.versewing.com",
+                  url: "https://versewing.com",
                   logo: {
                     "@type": "ImageObject",
-                    url: "https://www.versewing.com/versewings-logo.svg",
+                    url: "https://versewing.com/versewings-logo.svg",
                   },
                   description:
                     "A creative writing platform dedicated to poets, lyricists, and storytellers.",
-                  sameAs: ["https://twitter.com/versewings"],
+                  sameAs: ["https://twitter.com/versewing"],
                   contactPoint: {
                     "@type": "ContactPoint",
                     contactType: "Customer Support",
@@ -172,13 +175,13 @@ export default function RootLayout({
                 },
                 {
                   "@type": "WebSite",
-                  "@id": "https://www.versewing.com/#website",
-                  url: "https://www.versewing.com",
+                  "@id": "https://versewing.com/#website",
+                  url: "https://versewing.com",
                   name: "VERSEWING",
                   description:
                     "Where Words Take Flight Forever - The dedicated platform for creative writing",
                   publisher: {
-                    "@id": "https://www.versewing.com/#organization",
+                    "@id": "https://versewing.com/#organization",
                   },
                   inLanguage: "en-US",
                 },
@@ -187,17 +190,29 @@ export default function RootLayout({
           }}
         />
         {/* Facebook domain verification */}
-        <meta name="facebook-domain-verification" content="b6j6jdair7elbilwp2ttepqyomaj8o" />
+        <meta
+          name="facebook-domain-verification"
+          content="b6j6jdair7elbilwp2ttepqyomaj8o"
+        />
         {/* Additional meta tags for AI and search engines */}
-        <meta name="abstract" content="Creative writing platform for poets, lyricists, and storytellers" />
-        <meta name="topic" content="Creative Writing, Poetry, Lyrics, Storytelling" />
-        <meta name="summary" content="Share and preserve your creative writing on VERSEWING - a platform built exclusively for writers" />
+        <meta
+          name="abstract"
+          content="Creative writing platform for poets, lyricists, and storytellers"
+        />
+        <meta
+          name="topic"
+          content="Creative Writing, Poetry, Lyrics, Storytelling"
+        />
+        <meta
+          name="summary"
+          content="Share and preserve your creative writing on VERSEWING - a platform built exclusively for writers"
+        />
         <meta name="Classification" content="Creative Writing Platform" />
         <meta name="designer" content="VERSEWING" />
         <meta name="reply-to" content="support@versewing.app" />
         <meta name="owner" content="VERSEWING" />
-        <meta name="url" content="https://www.versewing.com" />
-        <meta name="identifier-URL" content="https://www.versewing.com" />
+        <meta name="url" content="https://versewing.com" />
+        <meta name="identifier-URL" content="https://versewing.com" />
         <meta name="coverage" content="Worldwide" />
         <meta name="distribution" content="Global" />
         <meta name="rating" content="General" />
