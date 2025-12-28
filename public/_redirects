@@ -1,0 +1,7 @@
+# Redirect www to non-www (301 permanent redirect)
+# This ensures Google treats versewing.com as the canonical domain
+https://www.versewing.com/* https://versewing.com/:splat 301!
+http://www.versewing.com/* https://versewing.com/:splat 301!
+
+# Force HTTPS (if someone accesses via http)
+http://versewing.com/* https://versewing.com/:splat 301!
